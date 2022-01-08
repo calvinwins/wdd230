@@ -1,0 +1,36 @@
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  background-color:rgb(1, 20, 82);
+  color: rgb(236, 236, 236);
+  border-radius: 6px;
+  padding: 1rem;
+  justify-content: center;
+}
+li {list-style-type: none;}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+body { 
+      text-align: center;
+      background-color: white;
+      margin: 1em auto;
+      font-size: 16px;
+}
+footer {
+      background-color:rgb(1, 20, 82);
+      color: seashell;
+      border-radius: 6px;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+}
+header {
+  grid-template-columns: auto;
+  justify-items: center;
+  text-align: center;
+}
