@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans:wght@300&family=Quicksand&display=swap');
 
 header {
-  font-family: Quicksand;
+  font-family: OpenSans;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
@@ -30,7 +30,7 @@ footer {
       color: seashell;
       border-radius: 6px;
       padding: 10px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: BonaNova, OpenSans;
       text-align: center;
 }
 header {
