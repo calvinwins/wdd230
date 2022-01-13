@@ -11,19 +11,19 @@ header {
   border-radius: 6px;
   padding: 1rem;
   justify-content: center;
+  justify-items: center;
+  text-align: center;
 }
 li {list-style-type: none;}
 main {
-    display: grid;
-    grid-template-columns: 1fr;
     align-items: center;
 }
 body { 
       font-family: BonaNova, OpenSans;
-      text-align: center;
       background-color: white;
       margin: 1em auto;
       font-size: 16px;
+      max-width: 600px;
 }
 footer {
       background-color:rgb(1, 20, 82);
@@ -32,9 +32,4 @@ footer {
       padding: 10px;
       font-family: BonaNova, OpenSans;
       text-align: center;
-}
-header {
-  grid-template-columns: auto;
-  justify-items: center;
-  text-align: center;
 }
