@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans:wght@300&family=Quicksand&display=swap');
 
 header {
+  font-family: Quicksand;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
@@ -18,6 +19,7 @@ main {
     align-items: center;
 }
 body { 
+      font-family: BonaNova, OpenSans;
       text-align: center;
       background-color: white;
       margin: 1em auto;
