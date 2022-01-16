@@ -26,4 +26,12 @@
     ul {
         text-align: center;
     }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #third {
+        grid-column: span 2;
+    }
 }
