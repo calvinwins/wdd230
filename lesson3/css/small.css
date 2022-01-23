@@ -1,0 +1,49 @@
+
+header {
+  font-family: OpenSans;
+  grid-gap: 20px;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  flex-direction: column;
+  color: #1F1F1F
+}
+nav {display: flex;
+    background-color: #1F1F1F;}
+.home-img {align-items: left;}
+ .topBar a {   
+    float: left; 
+    display: block;
+    background-color: #1F1F1F;
+    color: white;
+    padding: 14px 17px;
+    font-size: 17px;
+    text-decoration: none;
+    align-items: center;
+    }
+.topBar {
+    justify-content: center;
+    background-color: #1F1F1F;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding-inline-start: 0;
+    display: block;
+    }
+  li {list-style-type: none;}
+  h2 {background-color: #E6E1F4;}
+  body { 
+        font-family: BonaNova, OpenSans;
+        margin: 1em auto;
+        font-size: 16px;
+        max-width: 500px;
+  }
+  footer {
+        background-color: #1F1F1F;
+        color: #FFFF;
+        border-radius: 6px;
+        padding: 10px;
+        font-family: BonaNova, OpenSans;
+        text-align: center;
+  }
+  
