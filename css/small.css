@@ -9,6 +9,7 @@ header {
   padding: 1rem;
   justify-items: center;
   text-align: center;
+  
 }
 li {list-style-type: none;}
 main {
@@ -29,3 +30,4 @@ footer {
       font-family: BonaNova, OpenSans;
       text-align: center;
 }
+#color1 {color: rgb(1, 20, 82)}
