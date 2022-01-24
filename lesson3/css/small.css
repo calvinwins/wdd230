@@ -10,11 +10,11 @@ header {
 }
 nav {display: flex;
     background-color: #1F1F1F;}
+
 .home-img {align-items: left;}
  .topBar a {   
     float: left; 
     display: block;
-    background-color: #1F1F1F;
     color: white;
     padding: 14px 17px;
     font-size: 17px;
@@ -23,15 +23,17 @@ nav {display: flex;
     }
 .topBar {
     justify-content: center;
-    background-color: #1F1F1F;
     list-style-type: none;
     display: flex;
     text-align: center;
-    padding-inline-start: 0;
+    padding-inline-start: 10px;
     display: block;
     }
   li {list-style-type: none;}
-  h2 {background-color: #E6E1F4;}
+  .h2-title { text-align: center;
+      background-color: #E6E1F4;}
+  .h3-title {text-align: center;
+             background-color: #E6E1F4;}
   body { 
         font-family: BonaNova, OpenSans;
         margin: 1em auto;
@@ -46,7 +48,8 @@ nav {display: flex;
         font-family: BonaNova, OpenSans;
         text-align: center;
   }
-  #color1 {background-color:  #1F1F1F}
+  #color1 {background-color:  #1F1F1F;
+           color: #FFFF }
   #color2 {background-color:  #FFFF}
   #color3 {background-color:  #E6E1F4}
   #color4 {background-color:  #59656F}
