@@ -13,6 +13,7 @@ header {
 main { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1em;
     background-color: white;
     color: white;
     margin-top: 10px;
@@ -21,9 +22,10 @@ nav {
 	margin: 0 auto;
 	max-width: 760px;
     }
-section   {
-    background-color: #00476e;
+main section   {
+    background-color: #005f90;
     display: block;
+    padding: 1em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -67,14 +69,20 @@ section   {
 }
 
 
-.hero {
-    background-color: #005f90;
 
-}
 .top-footer {
     color: white;
     background-color: #00476e}
 .bottom-footer {
     background-color: #005f90;
     color: white;
+}
+#currentDate {
+    text-align: center;
+}
+.join {
+    display: none;
+}
+#spotlight {
+    display: none;
 }

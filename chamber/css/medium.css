@@ -1,10 +1,9 @@
-
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 34em) {
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block; /* change state in small view #e48000 */
 		flex: 1 1 auto;
 	}
 	.navigation a {
@@ -13,7 +12,32 @@
 	.navigation li:first-child {
 		display: none;
 	}
-    nav {
-        background-color: #e48000;
-    }
-}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-column-gap: 1em;
+	}}
+	.hero {
+		grid-column: 1 / span 3;
+	}
+	.event {
+		grid-column: 1 / span 2;
+		grid-row: 5;
+	}
+	.spotlight {
+		grid-column: 1 / span 3;
+		grid-row: 3;
+	}
+	.newRelease {
+		grid-column: 1 / span 3;
+		grid-row: 2;
+	}
+	.weather {
+		grid-column: 3;
+		grid-row: 5;
+	}
+	.join {
+		grid-column: 1 / span2;
+		grid-row: 4; 
+		display: initial;
+	}
