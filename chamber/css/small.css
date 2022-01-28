@@ -1,0 +1,11 @@
+header {
+    color: white;
+    background-color:#00476e
+}
+.menu a {
+    text-decoration: none;
+    color: white    }
+.top-footer {
+    color: white;
+    background-color: #e48000}
+.bottom-footer {background-color: #005f90}
