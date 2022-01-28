@@ -68,21 +68,23 @@ main section   {
 	content: "❌ ";
 }
 
-
+.join {
+    display: none;
+}
 
 .top-footer {
+    text-align: center;
     color: white;
     background-color: #00476e}
 .bottom-footer {
+    text-align: center;
     background-color: #005f90;
     color: white;
 }
 #currentDate {
     text-align: center;
 }
-.join {
-    display: none;
-}
-#spotlight {
+
+#spotlight3 {
     display: none;
 }

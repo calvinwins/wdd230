@@ -37,7 +37,7 @@
 		grid-row: 5;
 	}
 	.join {
-		grid-column: 1 / span2;
+		grid-column: 1 / span 3;
 		grid-row: 4; 
 		display: initial;
 	}
