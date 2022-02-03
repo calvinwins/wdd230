@@ -57,7 +57,7 @@ main section   {
 
 .navigation a:hover {
 	color: white;
-	background-color: black;
+	background-color: #e48000;
 }
 
 .responsive li {
