@@ -1,4 +1,10 @@
 const listsize = document.querySelector('#listsize ');
-const buildButton = document.querySelector('');
+const buildButton = document.querySelector('button');
+const list = document.getElementById('list')
 
-buildButton.addEventListener();
+buildButton.addEventListener('click', () => {
+     let size = listsize.value;
+     let li = document.createElement('li');
+     li.innerhtml
+     list.appendChild(li)
+});
