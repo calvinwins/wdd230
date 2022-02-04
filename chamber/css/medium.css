@@ -16,7 +16,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		grid-column-gap: 1em;
-	}}
+	}
 	.hero {
 		grid-column: 1 / span 3;
 	}
@@ -41,3 +41,4 @@
 		grid-row: 4; 
 		display: initial;
 	}
+}
