@@ -1,9 +1,12 @@
 @media only screen and (min-width: 34em) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;}
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* change state in small view #e48000 */
+		display: block; 
 		flex: 1 1 auto;
 	}
 	.navigation a {
