@@ -44,5 +44,12 @@
 		grid-column: 1 / span 3;
 		grid-row: 4; 
 		display: initial;
+		text-align: center;
 	}
+	.join button{
+		text-align: center;
+		background-color: #e48000;
+		color: white
+	}
+	
 }

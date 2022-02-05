@@ -90,9 +90,15 @@ main section   {
 }
 .hero h2 {
     position: absolute;
-    background: radial-gradient(#00476e, #005f90)}
+    background-color:  #005f90}
 .hero button {
     position: absolute;
     background-color: #e48000;
-    color: white
+    color: white;
+    bottom:20px;
+    right:20px;
+    width:100px;
+    height:40px;
+   
 }
+
