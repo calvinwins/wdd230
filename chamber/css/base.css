@@ -84,3 +84,15 @@ main section   {
 #spotlight3 {
     display: none;
 }
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+.hero h2 {
+    position: absolute;
+    background: radial-gradient(#00476e, #005f90)}
+.hero button {
+    position: absolute;
+    background-color: #e48000;
+    color: white
+}
