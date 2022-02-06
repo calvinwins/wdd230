@@ -66,11 +66,13 @@ main section   {
 }
 
 .top-footer {
+    padding: 10px;
     text-align: center;
     color: white;
     background-color: #00476e;
 }
 .bottom-footer{
+    padding: 10px;
     text-align: center;
     color: white;
     background-color: #005f90;
@@ -100,6 +102,9 @@ main section   {
     width:200px;
     height:40px;
    
+}
+.newRelease h3{
+    text-align: center;
 }
 .spotlight h3{
     background-color: #00476e;
