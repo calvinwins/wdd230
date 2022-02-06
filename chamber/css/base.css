@@ -69,15 +69,13 @@ main section   {
     text-align: center;
     color: white;
     background-color: #00476e;
-    padding: 1em;
-    margin-bottom: 1em;
 }
-.bottom-footer {
+.bottom-footer{
     text-align: center;
-    background-color: #005f90;
     color: white;
-    padding: 1em;
+    background-color: #005f90;
 }
+
 #currentDate {
     text-align: center;
 }
