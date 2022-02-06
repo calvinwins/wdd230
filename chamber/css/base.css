@@ -88,7 +88,7 @@ main section   {
     margin: 10px auto;
     position: relative;
 }
-.hero h2 {
+.hero h2 { 
     position: absolute;
     background-color:  #005f90}
 .hero button {
@@ -97,8 +97,26 @@ main section   {
     color: white;
     bottom:20px;
     right:20px;
-    width:100px;
+    width:200px;
     height:40px;
    
 }
+.spotlight h3{
+    background-color: #00476e;
+    color: white;
+    padding: 5px;
+}
+.spotlight p {
+    padding: 5px;
 
+}
+.event {
+    text-align: center;
+    padding: 5px;
+}
+#social1{
+    margin-right: 10px;
+}
+#socail2{
+    margin: 10px
+}
