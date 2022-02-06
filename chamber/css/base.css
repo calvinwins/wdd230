@@ -28,6 +28,10 @@ main section   {
 }
 .menu{align-items: center;}
 
+.navigation{
+    padding: 0
+}
+
 .navigation li:first-child {
         display: block;
     }
@@ -56,9 +60,6 @@ main section   {
 	display: block;
 }
 
-.responsive a.menu::before {
-	content: "❌ ";
-}
 
 .join {
     display: none;
@@ -90,6 +91,7 @@ main section   {
 }
 .hero h2 { 
     position: absolute;
+    padding: 10px;
     background-color:  #005f90}
 .hero button {
     position: absolute;
@@ -108,8 +110,8 @@ main section   {
 }
 .spotlight p {
     padding: 5px;
-
 }
+
 .event {
     text-align: center;
     padding: 5px;
