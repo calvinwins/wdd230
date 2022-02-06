@@ -106,6 +106,9 @@ main section   {
 .newRelease h3{
     text-align: center;
 }
+.newRelease p{
+    margin: auto;
+}
 .spotlight h3{
     background-color: #00476e;
     color: white;
