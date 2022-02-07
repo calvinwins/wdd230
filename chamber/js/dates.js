@@ -28,28 +28,4 @@ message1 = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:
 
 
 
-switch (day) {
-    case (0):
-        message2 = 'Sunday';
-        break;
-    case (1):
-        message2 = 'Monday';
-        break;
-    case (2):
-        message2 = 'Tuesday';
-        break;
-    case (3):
-        message2 = 'Wednesday';
-        break;
-    case (4):
-        message2 = 'Thursday';
-        break;
-    case (5):
-        message2 = 'Friday';
-        break;
-    case (6):
-        message2 = 'Saturday';
-        break;
-}
 
-document.getElementById('banner').textContent = message1;
