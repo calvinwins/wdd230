@@ -9,7 +9,8 @@ buildButton.addEventListener('click', () => {
      let li = document.createElement('li');
      let span = document.createElement('span');
      let button = document.createElement('button');
-
+     
+   
      li.appendChild(span);
      span.textContent = size;
      li.appendChild(button);
@@ -19,6 +20,8 @@ buildButton.addEventListener('click', () => {
      button.addEventListener('click', () => {
          list.removeChild(li);
      })
-
+    
+    
+    
      input.focus();
 });
