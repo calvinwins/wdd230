@@ -2,6 +2,7 @@ const input = document.querySelector('input');
 const buildButton = document.querySelector('button');
 const list = document.getElementById('list')
 
+document.getElementById('favbook').style.background='#D4CCE3'
 buildButton.addEventListener('click', () => {
      let size = input.value;
      input.value = '';
