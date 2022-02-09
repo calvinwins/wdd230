@@ -19,7 +19,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		grid-column-gap: 1em;
-		max-width: 600px;
+		max-width: 675px;
 	}
 	.hero {
 		grid-column: 1 / span 3;
