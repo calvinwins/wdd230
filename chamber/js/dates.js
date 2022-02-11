@@ -24,8 +24,8 @@ dayOfWeek = date.getDay();
 
 let message;
 if (dayOfWeek >= 1 && dayOfWeek <= 3) {
-message1 = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. ';}
-document.getElementById('Banner').textContent = message1;
+ message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. ';}
+document.getElementById('Banner').textContent = message;
 
 
 
