@@ -103,6 +103,10 @@ main section   {
     height:40px;
    
 }
+.hero img {
+    width: 100%;
+    height: auto;
+}
 .newRelease h3{
     text-align: center;
 }
@@ -127,4 +131,8 @@ main section   {
 }
 #socail2{
     margin: 10px
+}
+.weather img{
+    float: left;
+    
 }
