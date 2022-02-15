@@ -8,5 +8,5 @@ article img[data-src] {
 }
 article img {
     filter: blur(0em);
-    transition: filter o.5s;
+    transition: filter 0.5s;
 }
