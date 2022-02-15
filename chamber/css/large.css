@@ -2,7 +2,7 @@
 main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
 }
 header { 
