@@ -3,10 +3,10 @@ body {
     margin: auto;
     text-align: center;
 }
-article img[data-src] {
+picture img[data-src] {
     filter: blur(.2em);
 }
-article img {
+picture img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
