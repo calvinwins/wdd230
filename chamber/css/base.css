@@ -132,7 +132,7 @@ main section   {
 #socail2{
     margin: 10px
 }
-.weather img{
-    float: left;
+.weather{
     
+    text-align: center;
 }

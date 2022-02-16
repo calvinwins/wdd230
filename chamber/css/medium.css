@@ -35,6 +35,9 @@
 		grid-column: 1 / span 3;
 		grid-row: 3;
 	}
+	.spotlight p{
+		padding: 20px
+	}
 	.newRelease {
 		grid-column: 1 / span 3;
 		grid-row: 2;
