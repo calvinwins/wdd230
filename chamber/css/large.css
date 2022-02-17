@@ -6,8 +6,13 @@ main {
     margin: auto;
 }
 header { 
-    grid-template-columns: 1fr 3fr 1fr;
+    padding-left: 180px;
+    padding-right: 180px;
     text-align: center;
+}
+.social {
+    padding-right: 10px;
+    float: right;
 }
 
 #currentDate {

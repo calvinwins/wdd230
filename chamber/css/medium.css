@@ -1,11 +1,14 @@
 @media only screen and (min-width: 34em) {
-	header {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;}
+	
 	.navigation {
 		display: flex;
+		float: center;
+	}
+	#logo {
+		float: left;
 	}
 	.navigation li {
+		text-align: center;
 		display: block; 
 		flex: 1 1 auto;
 	}
