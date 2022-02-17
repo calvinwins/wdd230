@@ -31,7 +31,7 @@ else {
         loadImages(img);
     })
 }
-const visited = window.localStorage.getItem('lastVisit');
+const visited = window.localStorage.getItem('lastvisit');
 if(visited === undefined) {
     visited = new Date(Data.now());
 }
