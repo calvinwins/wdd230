@@ -1,7 +1,7 @@
 let imagestoLoad = document.querySelectorAll('img[data-src]');
 
 const imageOptions = {
-    threshold: 1,
+    threshold: 0,
     rootMargin: "0px 0px 50px 0px"
 };
 
@@ -31,3 +31,17 @@ else {
         loadImages(img);
     })
 }
+const visited = window.localStorage.getItem('lastVisit');
+if(visited === undefined) {
+    visited = new Date(Data.now());
+}
+const lastVisited = Date.parse(visited);
+const Seperation = 1000 * 60 * 60 * 24;
+
+let days = Date.now() - lastVisited;
+let number = days / Seperation;
+
+window.localStorage.setItem('lastvisit', new Date(Date.now()));
+
+const daysBetween = Math.floor(number);
+document.getElementById('visits').textContent = daysBetween;

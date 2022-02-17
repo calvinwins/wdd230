@@ -139,11 +139,39 @@ main section   {
 #discover { 
     text-align: center;
 }
-.discover picture img[data-src] {
+.discover img[data-src] {
     filter: blur(.2em);
+    width: 100%;
+    height: auto;
 }
 
-.discover picture img {
+.discover img {
     filter: blur(0em);
     transition: filter 0.5s;
+    width: 100%;
+    height: auto;
+}
+.discover h3 {
+    text-align: center;
+    padding: 5px;
+    background-color: #00476e;
+}
+.discover div p {
+    padding: 5px;
+    background-color: #00476e;
+    color: white;
+}
+.discover div {
+    margin: 30px;
+    padding: 30px;
+    background-color: #005f90;
+}
+.discover {
+    margin: auto;
+    display: block;
+    padding: 0 200px;
+    max-width: 710px;
+}
+.discover p {
+    color: black;
 }
