@@ -139,3 +139,11 @@ main section   {
 #discover { 
     text-align: center;
 }
+.discover picture img[data-src] {
+    filter: blur(.2em);
+}
+
+.discover picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
