@@ -41,7 +41,7 @@ const Seperation = 1000 * 60 * 60 * 24;
 let days = Date.now() - lastVisited;
 let number = days / Seperation;
 
-window.localStorage.setItem('lastvisit', new Date(Date.now()));
+window.localStorage.setItem('lastvisit', Date.now());
 
 const daysBetween = Math.floor(number);
 document.getElementById('visits').textContent = daysBetween;
