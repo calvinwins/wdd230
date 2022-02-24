@@ -42,12 +42,43 @@
       <main>
         <H2>Join The Greater Bentonville Commerse</H2>
         <form method="get" action="Thank You">
-            <fieldset>Personal Information</fieldset>
-            <label>First Name*</label>
-            <input type="text" name="fname" required>
-            <label>Last Name*</label>
-            <input type="text" name="lname" required>
-            <label
+            <fieldset>Personal Information
+                <label>First Name*
+                <input type="text" name="fname" required></label>
+                <label>Last Name*
+                <input type="text" name="lname" required></label>
+                <label>Business Position
+                <input type="text" name="bposition"></label>
+                <label>Email
+                <input type="email" name="email" placeholder="fake@gmail.com" required></label>
+                <label>Phone Number
+                <input type="tel" name="phone" required></label>
+                <label>Business Name/Title
+                <input type="text" name="title" required></label>
+            </fieldset>
+            <fieldset>Membership Packages
+                <label class="mp">
+                <input type="radio" name="membership" value="np">
+                <span class="level"> Non Profit </span>
+                <span class="cost"> Free </span>
+                </label>
+                <label class="mp">
+                <input type="radio" name="membership" value="bronze">
+                <span class="level"> Bronze </span>
+                <span class="cost"> 1000$ </span>
+                </label>
+                <label class="mp">
+                <input type="radio" name="membership" value="silver">
+                <span class="level"> Silver </span>
+                <span class="cost"> 2000$ </span>
+                </label>
+                <label class="mp">
+                    <input type="radio" name="membership" value="gold">
+                    <span class="level"> Gold </span>
+                    <span class="cost"> 5000$ </span>
+                </label>
+            </fieldset>
+            <input type="submit" class="submit" value="Join the Chamber">
         </form>
         
       </main>
