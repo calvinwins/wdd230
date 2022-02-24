@@ -16,12 +16,6 @@ table {
 	border-collapse: collapse;
 }
 
-caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
-	font-size: .85rem;
-}
 
 thead tr:first-child th {
     font-weight: bold;
