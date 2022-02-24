@@ -1,5 +1,5 @@
 :root {
-	--back: hsla(150, 50%, 30%, 1);
+	--back: rgb(23, 109, 116);
   --back2: hsla(150, 50%, 30%, .5);
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
@@ -34,6 +34,7 @@ thead tr th{
     color: var(--foredark);
 }
 tfoot tr:first-child th {
+    color: var(--forelight);
     background-color: var(--back);
     font-size: .85rem;
 }
@@ -51,7 +52,7 @@ td {
 	text-align: center;
 }
 #spcell{
-    background-color:var(--back);
+    background-color:var(--back2);
 }
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
