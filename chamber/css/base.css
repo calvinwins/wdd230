@@ -1,3 +1,14 @@
+:root {
+	--back1: #00476e;
+  --back2: #005f90;
+  --dark: hsla(0,0%,10%,1);
+	--light: rgb(248, 248, 248);
+	--border: #e48000;
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
 header {
     color: white;
     background-color:#00476e;
@@ -178,3 +189,147 @@ main section   {
 #banner {
     background-color: #e48000;
 }
+
+
+/* form {
+	margin: 10px auto;
+	border: thin solid #00476e;
+	border-collapse: collapse;
+}
+
+fieldset {
+    font-size: 2em;
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 20rem;
+}
+fieldset label {
+    float: left;
+    color: black;
+
+} */
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--dark);
+    border-radius: 10px;
+    padding: .5rem 2.5%;
+    max-width: 25rem;
+    padding-inline-end: 2rem;
+}
+
+form legend {
+    color: var(--light);
+    margin: 0 1rem;
+    padding: .5rem;
+    background-color: var(--back2);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: var(--dark);
+    font-size: .8rem;
+}
+
+form label.pi input, form label.pi select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--back1);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--light);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label {
+    display:block;
+    padding: .75rem 0;
+    color: var(--dark);
+}
+
+form textarea {
+    width: 88%;
+    background-color: var(--light);
+    padding: .2rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--border);
+    color: var(--light);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: var(--dark);
+    cursor: pointer;
+}
+
+form label.pi input:required {
+    border: solid 2px var(--border) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
