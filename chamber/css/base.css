@@ -212,12 +212,11 @@ fieldset label {
 } */
 main.joins {
 display: block;
-padding: 0 200px;
+
 }
 form {
     margin: auto;
     max-width: 500px;
-   
 }
 
 form fieldset {
@@ -256,12 +255,6 @@ form label.pi input, form label.pi select {
     background-color: var(--light);
 }
 
-form label {
-    display:block;
-    padding: .75rem 0;
-    color: var(--dark);
-}
-
 
 form input.submit {
     background-color: var(--border);
@@ -294,6 +287,15 @@ form label span.cost {
     color: var(--light);
     border-radius: 10px;
 }
+form label textarea {
+    display: flex;
+}
+form label.mp p {
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid var(--dark);
+    border-radius: 10px;
+}
 main.joins h2 {
     background-color: var(--back1);
     border-radius: 10px;
@@ -304,15 +306,22 @@ main.joins h2 {
 
 }
 main.thankyou {
+    max-width: 500px;
     display: block;
     padding: 0 200px;
     margin: auto;
     }
 main.thankyou h2 {
+    
+    padding: 5px;
+    text-align: center;
     background-color: var(--back1);
 }
 main.thankyou p {
+    padding: 2em;
     background-color: #005f90;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 
