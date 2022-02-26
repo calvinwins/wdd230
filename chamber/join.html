@@ -41,7 +41,7 @@
       </header>
       <main class="joins">
         <H2>Join The Greater Bentonville Commerse</H2>
-        <form method="get" action="Thank You">
+        <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label class="pi">First Name*
@@ -49,13 +49,15 @@
                 <label class="pi">Last Name*
                 <input type="text" name="lname" required></label>
                 <label class="pi">Business Position
-                <input type="text" name="bposition"></label>
+                <input type="text" name="bposition" pattern="[A-Za-z\s-]{7,}"></label>
                 <label class="pi">Email
                 <input type="email" name="email" placeholder="fake@gmail.com" required></label>
                 <label class="pi">Phone Number
                 <input type="tel" name="phone" required></label>
                 <label class="pi">Business Name/Title
                 <input type="text" name="title" required></label>
+                <label class="'pi">Business Description
+                <textarea name="bdescription"></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Packages</legend>
