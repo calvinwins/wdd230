@@ -42,7 +42,7 @@
       <main class="joins">
         <H2>Join The Greater Bentonville Commerse</H2>
         <form method="get" action="thankyou.html">
-            <fieldset>
+            <fieldset class="pi">
                 <legend>Personal Information</legend>
                 <label class="pi">First Name*
                 <input type="text" name="fname" required></label>
@@ -59,7 +59,7 @@
                 <label class="'pi">Business Description
                 <textarea name="bdescription"></textarea></label>
             </fieldset>
-            <fieldset>
+            <fieldset class="mp">
                 <legend>Membership Packages</legend>
                 <label class="mp">
                 <input type="radio" name="membership" value="np">
@@ -85,6 +85,8 @@
                 <span class="cost"> 5000$ </span>
                 <p>The gold membership gives you and your company complete access to the Greater Area Commmerse resources. Your company will be the featured business on the Greater Area Commerse homepage. Your company will recieve invitations to every exculsive and public event held by the commerse.</p>
                 </label>
+            </fieldset>
+            <fieldset id="hidden">
             </fieldset>
             <input type="submit" class="submit" value="Join the Chamber">
         </form>
