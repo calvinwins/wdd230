@@ -197,14 +197,7 @@ main section   {
 	border-collapse: collapse;
 }
 
-fieldset {
-    font-size: 2em;
-    color: black;
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 20rem;
-}
+
 fieldset label {
     float: left;
     color: black;
@@ -225,6 +218,7 @@ form fieldset {
     border-radius: 10px;
     max-width: 25em;
     padding-inline-end: 1rem;
+
 }
 
 form legend {
