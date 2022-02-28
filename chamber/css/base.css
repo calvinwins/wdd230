@@ -266,10 +266,7 @@ form input.submit {
     margin-bottom: 10px;
 }
 
-fieldset.hidden{
-    display: none;
-    border: none;
-}
+
 
 form input.submit:hover {
     background-color: var(--back2);
@@ -327,7 +324,13 @@ main.thankyou p {
     font-size: 20px;
     border-radius: 5px;
 }
-
+fieldset.hidden{
+    display: none;
+    border: none;
+}
+#time {
+    display:none;
+}
 
 
 
