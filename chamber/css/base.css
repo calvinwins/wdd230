@@ -4,7 +4,7 @@
   --dark: hsla(0,0%,10%,1);
 	--light: rgb(248, 248, 248);
 	--border: #e48000;
-	--borderlight: hsl(0,0%,33%);
+	--borderlight: rgb(226, 226, 226);
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(0, 0%, 93%, 1);
 }
@@ -219,7 +219,7 @@ form fieldset {
     max-width: 25em;
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 7px 7px #005f90;
+    box-shadow: 7px 7px var(--back2);
 
 }
 
@@ -243,7 +243,7 @@ form label.pi input, form label.pi select {
     padding: 3px;
     width: 100%;
     max-width: 25em;
-    background-color: rgb(226, 226, 226);
+    background-color: var(--borderlight);
 }
 
 
@@ -274,6 +274,21 @@ form label.pi input:required {
 form label span.level {
     font-size: 1.5em;
     font-weight: bold;
+}
+input[type='radio']:after {
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    top: -2px;
+    left: -1px;
+    background-color: var(--borderlight);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+input[type='radio']:checked:after {
+    background-color: var(--border);
 }
 form label span.cost {
     font-size: 1.8em;
