@@ -220,7 +220,7 @@ form fieldset {
     max-width: 25em;
     margin-top: 10px;
     margin-bottom: 30px;
-    box-shadow: 7px 7px var(--back2);
+    box-shadow: 4px 4px var(--back2);
 
 }
 
