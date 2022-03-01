@@ -139,9 +139,11 @@ main section   {
 }
 #social1{
     margin-right: 10px;
+    width: 40px;
 }
-#socail2{
-    margin: 10px
+#socialb{
+    margin: 10px;
+    width: 40px;
 }
 .weather{
     padding: 5px;
@@ -256,7 +258,7 @@ form input.submit {
     left: 50%;
 
 }
-form label.mp p:hover {
+form p.mpp:hover {
     box-shadow: 5px 5px var(--border);
 }
 
@@ -299,7 +301,7 @@ form label span.cost {
 form label textarea {
     display: flex;
 }
-form label.mp p {
+form p.mpp {
     font-size: 20px;
     padding: 5px;
     border: 3px solid var(--dark);
