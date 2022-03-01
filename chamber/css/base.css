@@ -24,7 +24,7 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 1em;
     background-color: white;
-    color: white;
+    color: rgb(241, 241, 241);
     margin-top: 10px;
 }
 
