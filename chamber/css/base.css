@@ -139,11 +139,9 @@ main section   {
 }
 #social1{
     margin-right: 10px;
-    width: 40px;
 }
 #socialb{
     margin: 10px;
-    width: 40px;
 }
 .weather{
     padding: 5px;
@@ -306,6 +304,7 @@ form p.mpp {
     padding: 5px;
     border: 3px solid var(--dark);
     border-radius: 10px;
+    color: var(--dark);
 }
 main.joins h2 {
     background-color: var(--back1);
