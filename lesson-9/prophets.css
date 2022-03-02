@@ -1,0 +1,36 @@
+main {
+    margin: auto;
+    max-width: 1000px;
+}
+header h1 {
+    text-align: center;
+    color: rgb(255, 196, 123);
+}
+section {
+    text-align: center ;
+    padding: 3px;
+    background-color:rgb(147, 203, 255);
+    border: 5px black;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
+section img{
+    max-width: 65%;
+}
+@media only screen and (min-width: 34em) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+@media only screen and (min-width: 800px) {
+    div.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
