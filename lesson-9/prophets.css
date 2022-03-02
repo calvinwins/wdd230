@@ -15,8 +15,15 @@ section {
     margin-left: 2px;
     margin-bottom: 1px;
 }
+section h2{
+    color: rgb(255, 196, 123);
+    background-color: white;
+}
+section:hover{
+    transform: scale(1.1);
+}
 section img{
-    max-width: 65%;
+    max-width: 70%;
 }
 @media only screen and (min-width: 34em) {
     div.cards {
