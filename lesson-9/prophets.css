@@ -11,15 +11,16 @@ section {
     padding: 3px;
     background-color:rgb(147, 203, 255);
     border: 5px black;
-    margin-right: 2px;
-    margin-left: 2px;
-    margin-bottom: 1px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
 }
 section h2{
     color: rgb(255, 196, 123);
     background-color: white;
 }
 section:hover{
+    border: 2px;
     transform: scale(1.1);
 }
 section img{
