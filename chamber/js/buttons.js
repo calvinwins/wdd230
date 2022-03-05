@@ -21,24 +21,24 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const businesses = jsonObject['businesses'];
-    businesses.forEach(displaybusinesses);  // loop through each prophet
+    businesses.forEach(displayBsinesses);  // loop through each prophet
   });
 
   
 
 // assign values of each prophet
-  function displayProphets() {
+  function displayBusinesses() {
     let card = document.createElement('section');
 
     //name
     let h2 = document.createElement('h2');
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    h2.textContent = `${business.name}`;
     card.appendChild(h2);
   
-    //Date of Birth
-    let db = document.createElement('p');
-    db.textContent = `Date of Birth: ${prophet.birthdate}`;
-    card.appendChild(db);
+    //Address
+    let ad = document.createElement('p');
+    ad.textContent = `Address: ${business.address}`;
+    card.appendChild(ad);
   
     //PLace of Birth
     let pb = document.createElement('p');
