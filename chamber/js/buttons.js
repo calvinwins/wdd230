@@ -31,10 +31,16 @@ fetch(requestURL)
   function displayBusinesses(business) {
     let card = document.createElement('section');
 
-    //name
-    let h2 = document.createElement('h2');
-    h2.textContent = `${business.name}`;
-    card.appendChild(h2);
+    //img
+    let image = document.createElement('img');
+    image.src = business.image;
+    image.setAttribute('alt', business.order);
+    card.appendChild(image);
+
+    // //name
+    // let h2 = document.createElement('h2');
+    // h2.textContent = `${business.name}`;
+    // card.appendChild(h2);
   
     //Address
     let ad = document.createElement('p');
@@ -45,12 +51,6 @@ fetch(requestURL)
     let pn = document.createElement('p');
     pn.textContent = `Phone: ${business.phone}`;
     card.appendChild(pn);
-  
-    //img
-    let image = document.createElement('img');
-    image.src = business.image;
-    image.setAttribute('alt', business.order);
-    card.appendChild(image);
   
   
     document.querySelector('div.cards').appendChild(card);
