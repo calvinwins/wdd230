@@ -361,6 +361,7 @@ main.directory h2{
 }
 main.directory section img{
     max-width: 70%;
+    background-color: var(--light);
 }
 
 main.directory section {
