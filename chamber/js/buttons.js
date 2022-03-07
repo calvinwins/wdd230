@@ -41,14 +41,14 @@ fetch(requestURL)
     card.appendChild(ad);
   
     //PLace of Birth
-    let pb = document.createElement('p');
-    pb.textContent = `Place of birth: ${prophet.birthplace}`;
-    card.appendChild(pb);
+    let pn = document.createElement('p');
+    pn.textContent = `Phone: ${business.phone}`;
+    card.appendChild(pn);
   
     //img
     let image = document.createElement('img');
-    image.src = prophet.imageurl;
-    image.setAttribute('alt', prophet.order);
+    image.src = business.imageurl;
+    image.setAttribute('alt', business.order);
     card.appendChild(image);
   
   
