@@ -189,6 +189,7 @@ main section   {
 }
 #banner {
     background-color: #e48000;
+    padding: 10px;
 }
 
 
@@ -207,6 +208,9 @@ fieldset label {
 main.joins {
 display: block;
 
+}
+main.joins h2{
+    padding: 10px;
 }
 form {
     margin: auto;
@@ -233,7 +237,7 @@ form legend {
 
 form label {
     display: block;
-    padding-top: 1em;
+    padding: 1em;
     color: var(--dark);
     font-size: .8em;
 }
@@ -302,7 +306,7 @@ form label textarea {
 }
 form p.mpp {
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     border: 3px solid var(--dark);
     border-radius: 10px;
     color: var(--dark);
