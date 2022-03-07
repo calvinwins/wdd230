@@ -11,7 +11,8 @@ menubutton.addEventListener('click', () => {mainnav.classList.toggle('responsive
   joinButtons.addEventListener('click', function() {
      window.location='https://calvinwins.github.io/wdd230/chamber/join.html';
    });
-// directory//
+
+// directory
 const requestURL = 'https://calvinwins.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
 
@@ -40,7 +41,7 @@ fetch(requestURL)
     ad.textContent = `Address: ${business.address}`;
     card.appendChild(ad);
   
-    //PLace of Birth
+    //Phone Number
     let pn = document.createElement('p');
     pn.textContent = `Phone: ${business.phone}`;
     card.appendChild(pn);
