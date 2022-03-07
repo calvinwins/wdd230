@@ -347,6 +347,38 @@ fieldset.hidden{
 }
 
 
+/* Directory */
+
+main.directory{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+main.directory h2{
+    background-color: var(--back2);
+    text-align: center;
+}
+main.directory section img{
+    max-width: 70%;
+}
+
+main.directory section {
+    text-align: center ;
+    padding: 10px;
+    background-color:rgb(147, 203, 255);
+    border: 5px black;
+    margin: 10px
+}
+main.directory section h2{
+    color: rgb(255, 196, 123);
+    background-color: white;
+}
+main.directory section:hover{
+    border: 2px;
+    transform: scale(1.1);
+}
+
 
 
 
