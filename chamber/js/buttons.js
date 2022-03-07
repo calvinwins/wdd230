@@ -28,7 +28,7 @@ fetch(requestURL)
   
 
 // assign values of each business
-  function displayBusinesses() {
+  function displayBusinesses(business) {
     let card = document.createElement('section');
 
     //name
@@ -48,7 +48,7 @@ fetch(requestURL)
   
     //img
     let image = document.createElement('img');
-    image.src = business.imageurl;
+    image.src = business.image;
     image.setAttribute('alt', business.order);
     card.appendChild(image);
   
