@@ -15,6 +15,8 @@ menubutton.addEventListener('click', () => {mainnav.classList.toggle('responsive
 // directory
 const requestURL = 'https://calvinwins.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
+const cardButton = document.querySelector('directory-card');
+const listButton = document.querySelector('directory-list');
 
 fetch(requestURL)
   .then(function (response) {
@@ -59,3 +61,11 @@ fetch(requestURL)
     document.querySelector('div.cards').appendChild(card);
   
   }
+  listButton.addEventListener("click", ()=> {
+    cards.classList.replace("cardButton", "listButton")
+});
+
+cardButton.addEventListener("click", ()=> {
+    cards.classList.replace("listButton", "cardButton")
+});
+

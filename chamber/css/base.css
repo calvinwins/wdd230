@@ -389,13 +389,14 @@ main.directory section:hover{
     padding: 5px;
     margin: 10px;
 }
- #directory-card {
+#directory-card {
     padding: 5px;
     margin: 10px;
 }
- .cards {    width: 100%;
-    max-width: 1000px;}  
+#directory-list section img{
+    display: none;
 
+}
 
 
 
