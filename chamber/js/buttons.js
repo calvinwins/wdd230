@@ -14,9 +14,8 @@ menubutton.addEventListener('click', () => {mainnav.classList.toggle('responsive
 
 // directory
 const requestURL = 'https://calvinwins.github.io/wdd230/chamber/data.json';
-const cards = document.querySelector('.cards');
-const cardButton = document.querySelector('directory-card');
-const listButton = document.querySelector('directory-list');
+const cards = document.querySelector('.card-view');
+
 
 fetch(requestURL)
   .then(function (response) {
@@ -58,14 +57,18 @@ fetch(requestURL)
     // web.textContent = 'website: ${business.website}';
     // card.appendChild(web);
   
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.card-view').appendChild(card);
   
   }
-  listButton.addEventListener("click", ()=> {
-    cards.classList.replace("cardButton", "listButton")
+
+const cardButton = document.getElementById('directory-card');
+const listButton = document.getElementById('directory-list');
+
+listButton.addEventListener("click", ()=> {
+    cards.classList.replace("card-view", "list-view")
 });
 
 cardButton.addEventListener("click", ()=> {
-    cards.classList.replace("listButton", "cardButton")
+    cards.classList.replace("list-view", "card-view")
 });
 

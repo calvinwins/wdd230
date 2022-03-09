@@ -50,7 +50,7 @@ header {
     width: 100px
 }
 /* Directory */
-div.cards{
+div.card-view {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }

@@ -393,7 +393,7 @@ main.directory section:hover{
     padding: 5px;
     margin: 10px;
 }
-#directory-list section img{
+.list-view img, .card-view>section h3{
     display: none;
 
 }
