@@ -51,7 +51,10 @@ fetch(requestURL)
     let pn = document.createElement('p');
     pn.textContent = `Phone: ${business.phone}`;
     card.appendChild(pn);
-  
+    // //website
+    // let web = document.createElement('p');
+    // web.textContent = business.website;
+    // card.appendChild(web);
   
     document.querySelector('div.cards').appendChild(card);
   

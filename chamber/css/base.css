@@ -364,6 +364,9 @@ main.directory section img{
     background-color: var(--light);
     padding: 10px;
 }
+ main.directory div{
+    margin: auto;
+} 
 
 main.directory section {
     text-align: center ;
@@ -379,9 +382,23 @@ main.directory section:hover{
     border: 2px;
     transform: scale(1.1);
 }
-
-
-
+.directory-btn {
+    text-align: center;
+}
+#directory-list {
+    padding: 5px;
+    margin: 10px;
+     background-color: var(--back2);
+    border-color: var(--back2);
+}
+ #directory-card {
+    padding: 5px;
+    margin: 10px;
+     background-color: var(--back2);
+    border-color: var(--back2);
+}
+ .cards {    width: 100%;
+    max-width: 1000px;}  
 
 
 
