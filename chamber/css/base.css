@@ -367,6 +367,9 @@ main.directory section img{
  main.directory div{
     margin: auto;
 } 
+main.directory button:hover{
+    background-color: var(--border);
+}
 
 main.directory section {
     text-align: center ;
@@ -375,9 +378,7 @@ main.directory section {
     border: 5px black;
     margin: 10px
 }
-main.directory section h2{
-    background-color: var(--light);
-}
+
 main.directory section:hover{
     border: 2px;
     transform: scale(1.1);
@@ -401,6 +402,13 @@ main.directory section:hover{
     display: none;}
 
 
+.list-view section{
+    background-color: var(--zebra);
+}
+
+.list-view section:nth-child(even) {
+	background-color: var(--back2);
+}
 
 
 

@@ -53,9 +53,9 @@ fetch(requestURL)
     pn.textContent = `Phone: ${business.phone}`;
     card.appendChild(pn);
     // //website
-    // let web = document.createElement('p');
-    // web.textContent = 'website: ${business.website}';
-    // card.appendChild(web);
+    let web = document.createElement('p');
+    web.textContent = 'website: ${business.website}';
+    card.appendChild(web);
   
     document.querySelector('div.card-view').appendChild(card);
   
