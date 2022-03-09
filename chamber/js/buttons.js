@@ -38,10 +38,10 @@ fetch(requestURL)
     image.setAttribute('alt', business.order);
     card.appendChild(image);
 
-    // //name
-    // let h2 = document.createElement('h2');
-    // h2.textContent = `${business.name}`;
-    // card.appendChild(h2);
+    //name
+    let h2 = document.createElement('h2');
+    h2.textContent = `${business.name}`;
+    card.appendChild(h2);
   
     //Address
     let ad = document.createElement('p');

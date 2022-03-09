@@ -397,6 +397,8 @@ main.directory section:hover{
     display: none;
 
 }
+.card-view h2, .list-view>section h3{
+    display: none;}
 
 
 
