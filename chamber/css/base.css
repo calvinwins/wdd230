@@ -360,8 +360,9 @@ main.directory h2{
     text-align: center;
 }
 main.directory section img{
-    max-width: 70%;
+    max-width: 90%;
     background-color: var(--light);
+    padding: 10px;
 }
 
 main.directory section {
