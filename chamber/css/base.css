@@ -388,14 +388,10 @@ main.directory section:hover{
 #directory-list {
     padding: 5px;
     margin: 10px;
-     background-color: var(--back2);
-    border-color: var(--back2);
 }
  #directory-card {
     padding: 5px;
     margin: 10px;
-     background-color: var(--back2);
-    border-color: var(--back2);
 }
  .cards {    width: 100%;
     max-width: 1000px;}  

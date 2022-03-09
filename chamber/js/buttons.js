@@ -53,7 +53,7 @@ fetch(requestURL)
     card.appendChild(pn);
     // //website
     // let web = document.createElement('p');
-    // web.textContent = business.website;
+    // web.textContent = 'website: ${business.website}';
     // card.appendChild(web);
   
     document.querySelector('div.cards').appendChild(card);
