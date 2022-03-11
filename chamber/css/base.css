@@ -10,6 +10,8 @@
 }
 
 header {
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     background-color:#00476e;
     text-align: center;
@@ -191,6 +193,9 @@ main section   {
     background-color: #e48000;
     padding: 10px;
 }
+div#banner:empty {
+    display: none;
+  }
 
 
 /* form {
