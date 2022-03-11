@@ -42,6 +42,8 @@ header {
 .spotlight{
     grid-column: 3;
     grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 #spotlight3 {
     display: initial;
@@ -49,6 +51,7 @@ header {
 .join button {
     width: 100px
 }
+
 /* Directory */
 div.card-view {
     grid-template-columns: 1fr 1fr 1fr;
