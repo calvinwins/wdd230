@@ -11,6 +11,8 @@ fetch(apiURL)
       const weathericon = document.querySelector('#weathericon');
       const caption = document.querySelector('figcaption')
       const windSpeed = document.querySelector('#windSpeed')
+      const temp = x.main.temp.toFixed(0)
+      const speed = x.wind.speed.toFixed(2);
 
       windSpeed.textContent = x.wind.speed.toFixed(2);
       currentTemp.textContent = x.main.temp.toFixed(0);
@@ -22,8 +24,8 @@ fetch(apiURL)
       weathericon.setAttribute('alt', imgalt);
       caption.innerHTML = `Currently: ${imgalt}`;
 
-      if(currentTemp <= 50 && windSpeed > 3) {
-        const windChill= Math.round((35.74 + (0.6215 * currentTemp))-(35.75 * Math.pow(windSpeed,0.16)) + (0.4275*currentTemp*Math.pow(windSpeed,0.16)));
+      if(temp <= 50 && speed > 3) {
+        const windChill= Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(speed,0.16)) + (0.4275*temp*Math.pow(speed,0.16)));
         document.querySelector("#windChill").innerHTML= windChill;
         }
         else {
