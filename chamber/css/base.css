@@ -16,6 +16,10 @@ header {
     background-color:#00476e;
     text-align: center;
 }
+.head {
+    max-width: 1200px;
+    margin: auto;
+}
 
 
 .menu a {
