@@ -40,7 +40,7 @@ fetch(requestURL)
     card.appendChild(pn);
     // //website
     let web = document.createElement('p');
-    web.textContent = `website: ${business.website}`;
+    web.textContent = `Website: ${business.website}`;
     card.appendChild(web);
   
     document.querySelector('div.card-view').appendChild(card);
