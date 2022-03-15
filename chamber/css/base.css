@@ -162,6 +162,7 @@ main.index section  {
 }
 /* DISCOVER */
 .discover h2 {
+    color: var(--borderlight);
     background-color: var(--back2);
     padding: 10px;
 }
@@ -362,9 +363,10 @@ main.directory{
     max-width: 1000px;
 }
 
-main.directory h2{
+ h2.topic{
     background-color: var(--back2);
     text-align: center;
+    padding: 10px;
 }
 main.directory section img{
     max-width: 90%;
@@ -378,16 +380,30 @@ main.directory button:hover{
     background-color: var(--border);
 }
 
-main.directory section {
+.card-view section {
     text-align: center ;
     padding: 10px;
     background-color:var(--back1);
-    margin: 10px
+    margin: 10px;
+    padding-top: 25px;
+}
+.list-view section {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--back1);
+}
+.list-view h2 {
+    margin: 0px;
+    padding: 5px;
+}
+.list-view p {
+    margin: 0px;
+    padding: 5px
 }
 
 .card-view section:hover{
     border: 2px;
-    transform: scale(1.1);
+    transform: scale(1.0);
     margin:0px
 }
 .directory-btn {
@@ -409,16 +425,9 @@ main.directory section {
     display: none;}
 
 
-.list-view section{
-    background-color: var(--zebra);
-}
-
 .list-view section:nth-child(even) {
 	background-color: var(--back2);
 }
-/* .card-view section p:nth-child(5){
-    display: none;
-} */
 
 
 
