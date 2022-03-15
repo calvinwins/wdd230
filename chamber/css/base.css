@@ -163,6 +163,10 @@ main section   {
     text-align: center;
 }
 /* DISCOVER */
+.discover h2 {
+    background-color: var(--back2);
+    padding: 10px;
+}
 .discover img:hover {
     box-shadow: 0 0 50px white;
 }
@@ -212,9 +216,6 @@ main section   {
 main.joins {
 display: block;
 
-}
-main.joins h2{
-    padding: 10px;
 }
 form {
     margin: auto;
@@ -308,6 +309,9 @@ form label span.cost {
 form label textarea {
     display: flex;
 }
+.level {
+    padding: 5px;
+}
 form p.mpp {
     font-size: 20px;
     padding: 10px;
@@ -316,12 +320,13 @@ form p.mpp {
     color: var(--dark);
 }
 main.joins h2 {
-    background-color: var(--back1);
+    background-color: var(--back2);
     border-radius: 10px;
     max-width: 500px;
     margin: auto;
     margin-top: 10px;
     text-align: center;
+    padding: 10px;
 
 }
 main.thankyou {
