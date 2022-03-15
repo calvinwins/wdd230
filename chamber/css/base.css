@@ -16,6 +16,14 @@ header {
     background-color:#00476e;
     text-align: center;
 }
+#banner {
+    background-color: #e48000;
+    padding: 10px;
+}
+div#banner:empty {
+    display: none;
+  }
+
 .head {
     max-width: 1200px;
     margin: auto;
@@ -154,6 +162,10 @@ main section   {
     padding: 5px;
     text-align: center;
 }
+/* DISCOVER */
+.discover img:hover {
+    box-shadow: 0 0 50px white;
+}
 #discover { 
     text-align: center;
 }
@@ -187,33 +199,16 @@ main section   {
 .discover {
     margin: auto;
     display: block;
-    padding: 0 200px;
     max-width: 710px;
 }
 .discover p {
     color: black;
 }
-#banner {
-    background-color: #e48000;
-    padding: 10px;
-}
-div#banner:empty {
-    display: none;
-  }
 
 
-/* form {
-	margin: 10px auto;
-	border: thin solid #00476e;
-	border-collapse: collapse;
-}
 
 
-fieldset label {
-    float: left;
-    color: black;
-
-} */
+/* JOINS */
 main.joins {
 display: block;
 
