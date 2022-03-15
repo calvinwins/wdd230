@@ -383,7 +383,7 @@ main.directory button:hover{
 .card-view section {
     text-align: center ;
     padding: 10px;
-    background-color:var(--back1);
+    background-color:var(--back2);
     margin: 10px;
     padding-top: 25px;
 }
