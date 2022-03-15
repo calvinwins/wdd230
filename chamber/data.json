@@ -5,7 +5,7 @@
     "name": "Pak Mail",
     "address": "1720 S. Walton Blvd. Suite 4 Bentonville, AR, 72712",
     "phone": "(479) 254-8601",
-    "website": "https://www.pakmail.com/stores/pak-mail-of-bentonville?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=61732",
+    "website": "https://www.pakmail.com/stores/",
     "order": 1
 },
 {
@@ -21,7 +21,7 @@
     "name": "The Fresh Market",
     "address": "105 NW 2nd St #207, Bentonville, AR 72712",
     "phone": "(479) 319-6880",
-    "website": "https://www.thefreshmarket.com/my-market/store/2203promenade-rogers",
+    "website": "https://www.thefreshmarket.com/",
     "order": 3
 },
 {
@@ -85,7 +85,7 @@
     "name": "Edible Arrangements",
     "address": "500 SE Walton Blvd, Bentonville, AR 72712",
     "phone": "(479) 268-4038",
-    "website": "https://www.ediblearrangements.com/stores/500-se-walton-boulevard-bentonville-ar-72712",
+    "website": "https://www.ediblearrangements.com/",
     "order": 11
 },
 {
@@ -93,7 +93,7 @@
     "name": "Big Frog Custom T-Shirts & More",
     "address": "2501 SE 14th St STE 11, Bentonville, AR 72712",
     "phone": "(479) 464-0160",
-    "website": "https://www.bigfrog.com/nwa/?y_source=1_MTU5NTc0MjgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "website": "https://www.bigfrog.com/",
     "order": 12
 }]
 }

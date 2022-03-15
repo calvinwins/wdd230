@@ -43,13 +43,11 @@ main {
     margin-top: 10px;
 }
 
-main section   {
+main.index section  {
     background-color: #005f90;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .menu{align-items: center;}
 
@@ -384,13 +382,13 @@ main.directory section {
     text-align: center ;
     padding: 10px;
     background-color:var(--back1);
-    border: 5px black;
     margin: 10px
 }
 
-main.directory section:hover{
+.card-view section:hover{
     border: 2px;
     transform: scale(1.1);
+    margin:0px
 }
 .directory-btn {
     text-align: center;
@@ -418,6 +416,9 @@ main.directory section:hover{
 .list-view section:nth-child(even) {
 	background-color: var(--back2);
 }
+/* .card-view section p:nth-child(5){
+    display: none;
+} */
 
 
 
