@@ -10,6 +10,12 @@ header {
     padding-right: 25px;
     text-align: center;
 }
+h1 {
+    margin-right: 175px;
+}
+#currentDate {
+    margin-right: 175px;
+}
 .social {
     padding-right: 10px;
     float: right;
