@@ -37,7 +37,7 @@ h1 {
     grid-column: 1;
     grid-row: 2;
 }
-main.index section.join{
+.join{
     grid-column: 1;
     grid-row: 3;
 }
