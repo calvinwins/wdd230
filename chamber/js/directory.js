@@ -21,7 +21,7 @@ fetch(requestURL)
     //img
     let image = document.createElement('img');
     image.src = business.image;
-    image.setAttribute('alt', business.order);
+    image.setAttribute('alt', business.imageAlt);
     card.appendChild(image);
 
     //name
