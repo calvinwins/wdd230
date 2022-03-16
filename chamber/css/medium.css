@@ -51,7 +51,7 @@
 		grid-column: 3;
 		grid-row: 5;
 	}
-	.join {
+	main.index section.join {
 		grid-column: 1 / span 3;
 		grid-row: 4; 
 		display: initial;
