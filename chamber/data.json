@@ -6,7 +6,7 @@
     "address": "1720 S. Walton Blvd. Suite 4 Bentonville, AR, 72712",
     "phone": "(479) 254-8601",
     "website": "https://www.pakmail.com/stores/",
-    "order": 1
+    "order": "Pak Mail logo"
 },
 {
     "image": "https://global-uploads.webflow.com/5e2ee8e34fbe7dc8493f2c89/60a596521d25353cada75a3d_Brand%20Catalyst%20Website-p-500.png",
@@ -41,7 +41,7 @@
     "order": 5
 },
 {
-    "image": "http://yoursignstudio.com/images/E1F3D923/wss67452.PNG",
+    "image": "http://yoursignstudio.com/images/E1F3D923/wss67452.PNG" ,
     "name": "Sign Studio",
     "address": "508 SW 14th St, Bentonville, AR 72712",
     "phone": "(479) 250-4844",
