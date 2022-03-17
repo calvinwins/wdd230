@@ -41,59 +41,25 @@
           <span id="currentDate"></span>
         </div>
       </header>
-      <main class="index">
-          <section class='hero'>
-            <h2>Welcome to Bentonville</h2>
-            <picture class="hero-img">
-              <source media="(max-width: 33.9em)" srcset="images/small.jpg">
-              <source media="(max-width: 799px)" srcset="images/medium.jpg">
-              <source media="(max-width: 1600px)" srcset="images/large.jpg">
-              <img src="images/small.jpg" alt="Bentonville town square">
-            </picture>
-            <button class="joinch">Join the Chamber</button>
-          </section>
-          <section class='event'>
-            <h3>🎀 Grand Opening 🐔</h3>
-              <p>We make the best hand-breaded chicken tenders using only the freshest ingredients,
-                 served in a friendly atmosphere where people can relax and feel at home. We use the
-                  best cut you can get for our tenders.
-            </p>
-          </section>
-          <section class='weather'>
-            <h3>Weather</h3>
-            <img src="" alt="" id="weathericon" />
-            <figcaption></figcaption>
-            <hr>
-            <p><span id="current-temp"></span> °F</p>
-            <p>Wind Speed: <span id='windSpeed'></span>mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
-          </section>
-          <section class='newRelease'>
-            <h3>🕷️ SpiderMan No Way Home Breaks Box Office</h3>
-            <p> The new edition to the long list of marvel super hero movies has smashed record box office sales.
-              Coming in at one of the best box office opening weekends ever!!!
-            </p>
-          </section>
-          <section class='spotlight'>
-            <div>
-            <h3>🛒 WALMART</h3>
-            <p> “to save people money so they can live better. For everything and more!"" </p>
-          </div>
-          <div>
-            <h3>Rogers HVAC Heros</h3>
-            <p>A local and well established hvac service. For every neighbors needs. </p>
-          </div>
-          <div id='spotlight3'>
-            <h3>✄ Nichole's Cuts</h3>
-            <p>Everyone needs a stylist they can trust. Nichole does men's, women's and children's cuts. </p>
-          </div>
-          </section>
-          <section class='join'>
-            <button class="joinch2">Join Us!</button>
-              <p id="joinContent">Discover how to join the chamber and help benifit the community!</p>
-          </section>
-
-      </main>
+      <main class="contact">
+        <form method="get" action="thankyou.html">
+            <fieldset class="contact">
+                <legend>Contact Us</legend>
+                <label class="contact">First Name*
+                <input type="text" name="fname" required></label>
+                <label class="contact">Last Name*
+                <input type="text" name="lname" required></label>
+                <label class="contact">Email*
+                <input type="email" name="email" placeholder="fake@gmail.com" required></label>
+                <label class="contact">Phone Number*
+                <input type="tel" name="phone" required></label>
+                <label class="'contact">Message
+                <textarea name="mdescription"     style= "width: 323px;
+                height: 127px;"></textarea></label>
+            </fieldset>
+            <input type="submit" class="submit" value="Send Message">
+        </form>
+        </main>
       <footer>
         <div class='top-footer'> 
           <div class="first">
@@ -109,6 +75,5 @@
         <div class='bottom-footer'> <span id="currentYear"></span> | Calvin M. Weaver | Arkansas    
         <p id="lastmod"></p></div>
       </footer>
-    <script defer src="js/weather.js"></script>
   </body>
 </html>

@@ -34,7 +34,7 @@ div#banner:empty {
     text-decoration: none;
     color: white    }
 
-main { 
+main.index { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 1em;
@@ -435,9 +435,98 @@ main.directory button:hover{
 .list-view section:nth-child(even) {
 	background-color: var(--back2);
 }
+/* Contact */
+main.contact {
+    display: block;
+    
+    }
+    form {
+        margin: auto;
+        max-width: 500px;
+    }
+    
+    form fieldset {
+        margin: auto;
+        border: 3px solid var(--dark);
+        border-radius: 10px;
+        max-width: 25em;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        box-shadow: 4px 4px var(--back2);
+    
+    }
+    
+    form legend {
+        color: var(--light);
+        padding: 5px;
+        background-color: var(--back2);
+        border-radius: 10px;
+    }
+    
+    form label {
+        display: block;
+        padding: 1em;
+        color: var(--dark);
+        font-size: .8em;
+    }
+    
+    form label.contact input, form label.contact select {
+        display: block;
+        border: solid 1px var(--back1);
+        padding: 3px;
+        width: 100%;
+        max-width: 25em;
+        background-color: var(--borderlight);
+    }
+    
+    
+    form input.submit {
+        background-color: var(--border);
+        color: white;
+        width:200px;
+        height:40px;
+        position: absolute;
+        left: 50%;
+    
+    }
+    
+    form input.submit:hover {
+        background-color: var(--back2);
+        cursor: pointer;
+    }
+    
+    form label.pi input:required {
+        border: solid 2px var(--border) ;
+    }
 
+    input[type='radio']:after {
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
+        top: -2px;
+        left: -1px;
+        background-color: var(--borderlight);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+    }
+    
+    input[type='radio']:checked:after {
+        background-color: var(--border);
+    }
 
-
+    form label textarea {
+        display: flex;}
+    main.contact h2 {
+        background-color: var(--back2);
+        border-radius: 10px;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+        padding: 10px;
+    
+    }
 
 
 
