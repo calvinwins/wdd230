@@ -8,6 +8,15 @@
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(0, 0%, 93%, 1);
 }
+main h2{
+    color: var(--borderlight);
+}
+main p {
+    color: var(--borderlight);
+}
+main h3 {
+        color: var(--borderlight);
+}
 
 header {
     padding-top: 10px;
@@ -223,6 +232,7 @@ main.joins {
 display: block;
 
 }
+
 form {
     margin: auto;
     max-width: 500px;
@@ -368,9 +378,11 @@ main.directory{
     display: block;
     margin: auto;
     max-width: 1000px;
+    padding: 20px;
 }
 
  h2.topic{
+    color: var(--borderlight);
     background-color: var(--back2);
     text-align: center;
     padding: 10px;
