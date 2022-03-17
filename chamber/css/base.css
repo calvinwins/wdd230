@@ -82,7 +82,14 @@ main.index section  {
 .responsive li {
 	display: block;
 }
-
+main.index section h3 {
+    background-color: var(--back1);
+    padding: 10px;
+}
+main.index section.newRelease p {
+    margin-top: 20px;
+    padding: 20px;
+}
 
 main.index section.join {
     display: none;
