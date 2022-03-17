@@ -25,9 +25,9 @@ fetch(requestURL)
     card.appendChild(image);
 
     //name
-    let h2 = document.createElement('h2');
-    h2.textContent = `${business.name}`;
-    card.appendChild(h2);
+    let h3 = document.createElement('h3');
+    h3.textContent = `${business.name}`;
+    card.appendChild(h3);
   
     //Address
     let ad = document.createElement('p');

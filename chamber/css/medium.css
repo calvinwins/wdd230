@@ -97,5 +97,9 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+	div.list-view section{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
 
 }

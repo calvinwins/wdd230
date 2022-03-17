@@ -380,13 +380,15 @@ main.directory{
     max-width: 1000px;
     padding: 20px;
 }
-
  h2.topic{
     color: var(--borderlight);
     background-color: var(--back2);
     text-align: center;
     padding: 10px;
 }
+
+
+
 main.directory section img{
     max-width: 90%;
     background-color: var(--light);
@@ -440,8 +442,8 @@ main.directory button:hover{
     display: none;
 
 }
-.card-view h2, .list-view>section h3{
-    display: none;}
+/* .card-view h3, .list-view>section h3{
+    display: none;} */
 
 
 .list-view section:nth-child(even) {
