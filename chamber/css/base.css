@@ -25,6 +25,7 @@ header {
     background-color:#00476e;
     text-align: center;
 }
+
 #banner {
     background-color: #e48000;
     padding: 10px;
@@ -99,9 +100,15 @@ main.index section.newRelease p {
     margin-top: 20px;
     padding: 20px;
 }
+main.index section p {
+    font-size: 1.1em;
+}
 
 main.index section.join {
     display: none;
+}
+footer p {
+    font-size: 1.1em;
 }
 
 .top-footer {
@@ -167,6 +174,7 @@ main.index section.join {
     padding: 5px;
 }
 #social1{
+    margin-left: 5px;
     margin-right: 10px;
 }
 #socialb{
