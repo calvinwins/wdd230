@@ -147,8 +147,20 @@ footer p {
     right:20px;
     width:200px;
     height:40px;
-    cursor: pointer;
+    
 }
+main.index button {
+    border-style: solid;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: var(--borderlight);
+    border-style: solid;
+    border-width: thin;
+}
+main.index button:hover {
+    background-color: var(--back1);
+}
+
 .hero img {
     width: 100%;
     height: auto;
