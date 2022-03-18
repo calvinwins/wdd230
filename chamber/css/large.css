@@ -17,9 +17,10 @@ h1 {
     margin-right: 175px;
 }
 .social {
-    padding-right: 10px;
+    padding-left: 10px;
     float: right;
 }
+
 
 #currentDate {
  margin-top: 1em;

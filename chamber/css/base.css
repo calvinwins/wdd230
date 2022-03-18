@@ -80,7 +80,7 @@ main.index section  {
 	color: white;
 	font-weight: 700;
 	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+	font-size: 1.3em;
 }
 
 
@@ -171,14 +171,15 @@ footer p {
 
 .event {
     text-align: center;
-    padding: 5px;
+}
+.event p {
+    padding: 15px
 }
 #social1{
-    margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 5px
 }
 #socialb{
-    margin: 10px;
+    margin: 5px;
 }
 .weather{
     padding: 5px;
@@ -452,7 +453,6 @@ main.directory button:hover{
 }
 /* .card-view h3, .list-view>section h3{
     display: none;} */
-
 
 .list-view section:nth-child(even) {
 	background-color: var(--back2);

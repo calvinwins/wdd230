@@ -103,5 +103,9 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
+	.list-view h3 {
+		padding: 5px;
+	}
+	
 
 }
