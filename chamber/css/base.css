@@ -313,7 +313,7 @@ form label.pi input, form label.pi select {
     padding: 3px;
     width: 100%;
     max-width: 25em;
-    background-color: var(--borderlight);
+    background-color: rgb(238, 238, 238);
 }
 
 
@@ -533,34 +533,17 @@ main.contact {
         padding: 3px;
         width: 100%;
         max-width: 25em;
-        background-color: var(--borderlight);
+        background-color: rgb(238, 238, 238);;
     }
-    
-    
 
     
-    form label.pi input:required {
+    form label.contact input:required {
         border: solid 2px var(--border) ;
     }
 
-    input[type='radio']:after {
-        width: 14px;
-        height: 14px;
-        border-radius: 14px;
-        top: -2px;
-        left: -1px;
-        background-color: var(--borderlight);
-        content: '';
-        display: inline-block;
-        visibility: visible;
-    }
-    
-    input[type='radio']:checked:after {
-        background-color: var(--border);
-    }
-
     form label textarea {
-        display: flex;}
+        display: flex;
+        background-color: rgb(238, 238, 238);}
     main.contact h2 {
         background-color: var(--back2);
         border-radius: 10px;
