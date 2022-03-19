@@ -33,18 +33,19 @@ fetch(requestURL)
             image.setAttribute('alt', business.imageAlt);
             spotlight.appendChild(image);
 
-            let ad = document.createElement('p');
-            ad.textContent = `Address: ${business.address}`;
-            spotlight.appendChild(ad);
+            //name
+            let h3 = document.createElement('h3');
+            h3.textContent = `${business.name}`;
+            spotlight.appendChild(h3);
           
             //Phone Number
             let pn = document.createElement('p');
             pn.textContent = `Phone: ${business.phone}`;
             spotlight.appendChild(pn);
-            // //website
-            let web = document.createElement('p');
-            web.textContent = business.website;
-            spotlight.appendChild(web);
+            //website
+            // let web = document.createElement('p');
+            // web.innhtml = business.website;
+            // spotlight.appendChild(web);
 
 
             businessesStatus.splice(i,1);
