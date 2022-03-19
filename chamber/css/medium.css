@@ -47,7 +47,12 @@
 	div.spots {
 		grid-template-rows: 1fr 1fr;
 		display: grid;
-	
+	}
+	.spotlight img {
+		width: 25%
+	}
+	div.spots {
+		padding: 20px;
 	}
 	.weather {
 		grid-column: 3;
