@@ -11,7 +11,7 @@ const joinButtons = document.querySelector('.joinch2');
 
 // spotlight
 const requestURL = 'https://calvinwins.github.io/wdd230/chamber/data.json';
-const spotlight = document.querySelector('.spotlight');
+const spotlights = document.querySelectorAll('.spotlights');
 
 
 fetch(requestURL)
@@ -23,25 +23,28 @@ fetch(requestURL)
         const businessesStatus = businesses.filter((business) => {
             return business.membship == "Bronze" || business.membship == "Silver" || business.membship == "Gold";
         });
-        spotlightItems.forEach((spotlight,index) => {
+        spotlights.forEach((spotlight,index) => {
             const i = Math.floor(Math.random()*businessesStatus.length);
             const business = businessesStatus[i];
 
             //img
             let image = document.createElement('img');
-            image.src = business.imgfile;
-            image.setAttribute('alt', business.name);
+            image.src = business.image;
+            image.setAttribute('alt', business.imageAlt);
             spotlight.appendChild(image);
 
-            //p phone
-            let p2 = document.createElement('p');
-            p2.textContent = business.phone;
-            spotlight.appendChild(p2);
-
-            //p website
-            let p3 = document.createElement('p');
-            p3.textContent = business.website;
-            spotlight.appendChild(p3);
+            let ad = document.createElement('p');
+            ad.textContent = `Address: ${business.address}`;
+            spotlight.appendChild(ad);
+          
+            //Phone Number
+            let pn = document.createElement('p');
+            pn.textContent = `Phone: ${business.phone}`;
+            spotlight.appendChild(pn);
+            // //website
+            let web = document.createElement('p');
+            web.textContent = `Website: ${business.website}`;
+            spotlight.appendChild(web);
 
 
             businessesStatus.splice(i,1);
