@@ -6,7 +6,8 @@
     "address": "1720 S. Walton Blvd. Suite 4 Bentonville, AR, 72712",
     "phone": "(479) 254-8601",
     "website": "https://www.pakmail.com/stores/",
-    "imageAlt": "Pak Mail logo"
+    "imageAlt": "Pak Mail logo",
+    "membership": "Gold"
 },
 {
     "image": "https://global-uploads.webflow.com/5e2ee8e34fbe7dc8493f2c89/60a596521d25353cada75a3d_Brand%20Catalyst%20Website-p-500.png",
@@ -14,7 +15,8 @@
     "address": "409 SW A St, Bentonville, AR 72712",
     "phone": "(479) 579-9682",
     "website": "https://www.brandcatalystco.com/",
-    "imageAlt": "Brand Catalyst Company logo"
+    "imageAlt": "Brand Catalyst Company logo",
+    "membership": "Gold"
 },
 {
     "image": "https://res.cloudinary.com/rootworks/image/upload/f_auto,q_100/c_limit,h_256,q_100,w_512/v1/firms/firm-04236036/keen-web-logo-updated-2021_brtvg7",
@@ -22,7 +24,8 @@
     "address": "105 NW 2nd St #207, Bentonville, AR 72712",
     "phone": "(479) 319-6880",
     "website": "https://www.keen.cpa/",
-    "imageAlt": "Keen & Company logo"
+    "imageAlt": "Keen & Company logo",
+    "membership": "Gold"
 },
 {
     "image": "https://morethanpayroll.com/wp-content/uploads/2020/04/TPC_MoreThanPayroll_Horizontal.png",
@@ -30,7 +33,8 @@
     "address": "820 Tiger Blvd #2, Bentonville, AR 72712",
     "phone": "(866) 899-8439",
     "website": "https://morethanpayroll.com/",
-    "imageAlt": "The Payroll Company logo"
+    "imageAlt": "The Payroll Company logo",
+    "membership": "Silver"
 },
 {
     "image": "https://www.eliteresultsmarketing.com/wp-content/uploads/2019/01/erm-red-series-black-copy.png",
@@ -38,7 +42,8 @@
     "address": "900 SE 5th St #22, Bentonville, AR 72712",
     "phone": "(479) 306-6630",
     "website": "https://www.eliteresultsmarketing.com/",
-    "imageAlt": "Elite Results Marketing SEO logo"
+    "imageAlt": "Elite Results Marketing SEO logo",
+    "membership": "Silver"
 },
 {
     "image": "http://yoursignstudio.com/images/E1F3D923/wss67452.PNG" ,
@@ -46,7 +51,8 @@
     "address": "508 SW 14th St, Bentonville, AR 72712",
     "phone": "(479) 250-4844",
     "website": "http://yoursignstudio.com/",
-    "imageAlt": "Sign Studio logo"
+    "imageAlt": "Sign Studio logo",
+    "membership": "Silver"
 },
 {
     "image": "https://www.maxwellcpa.com/site_images/maxwell.png?v=2",
@@ -54,7 +60,8 @@
     "address": "813 SW Raintree Ln Suite 23, Bentonville, AR 72712",
     "phone": "(479) 274-8201",
     "website": "https://www.maxwellcpa.com/",
-    "imageAlt": "Maxwell CPA logo"
+    "imageAlt": "Maxwell CPA logo",
+    "membership": "Silver"
 },
 {
     "image": "https://images.squarespace-cdn.com/content/v1/547deee6e4b0380edc48b072/1523549526944-3RPULGIUUVXSGF3J15DE/A%26B+Repro-MASTER+LOGO-website.png?format=1000w",
@@ -62,7 +69,8 @@
     "address": "3204 Moberly Ln, Bentonville, AR 72712",
     "phone": "(479) 271-7922",
     "website": "https://www.abrepro.com/",
-    "imageAlt": "A&B Reprographics logo"
+    "imageAlt": "A&B Reprographics logo",
+    "membership": "Silver"
 },
 {
     "image": "https://www.ceieng.com/wp-content/themes/cei/assets/images/nav-logo.jpg",
@@ -70,7 +78,8 @@
     "address": "102 E Central Ave, Bentonville, AR 72712",
     "phone": "(479) 295-2396",
     "website": "https://www.ceieng.com/",
-    "imageAlt": "CEI Engineering Associates, Inc. logo"
+    "imageAlt": "CEI Engineering Associates, Inc. logo",
+    "membership": "Silver"
 },
 {
     "image": "http://images.squarespace-cdn.com/content/v1/50858533e4b0f4598aab6335/efccf1ec-0baf-4d68-b8bb-5308c812bc91/SF_logo_final-01.jpg?format=750w",
@@ -78,7 +87,8 @@
     "address": "907 SE 21st St, Bentonville, AR 72712",
     "phone": "(479) 696-3601",
     "website": "http://www.chooseamp.com/",
-    "imageAlt": "AMP Sign & Banner logo"
+    "imageAlt": "AMP Sign & Banner logo",
+    "membership": "Bronze"
 },
 {
     "image": "https://resources.ediblearrangements.com/resources/en-us/i/revamp_p/edible_arrangement_logo.png?v=09302019",
@@ -86,7 +96,8 @@
     "address": "500 SE Walton Blvd, Bentonville, AR 72712",
     "phone": "(479) 268-4038",
     "website": "https://www.ediblearrangements.com/",
-    "imageAlt": "Edible Arrangements logo"
+    "imageAlt": "Edible Arrangements logo",
+    "membership": "Bronze"
 },
 {
     "image": "https://www.bigfrog.com/nwa/wp-content/themes/bigfrog/img/Big_Frog_Logo.svg",
@@ -94,6 +105,7 @@
     "address": "2501 SE 14th St STE 11, Bentonville, AR 72712",
     "phone": "(479) 464-0160",
     "website": "https://www.bigfrog.com/",
-    "imageAlt": "Big Frog Custom T-Shirts & More logo"
+    "imageAlt": "Big Frog Custom T-Shirts & More logo",
+    "membership": "Bronze"
 }]
 }
