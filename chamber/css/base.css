@@ -572,7 +572,9 @@ main.contact {
         padding: 10px;
     
     }
-
+.weather img {
+    background-color: #005f90;
+}
 
 
 

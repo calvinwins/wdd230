@@ -16,7 +16,7 @@ fetch(apiURL)
 
       windSpeed.textContent = x.wind.speed.toFixed(2);
       currentTemp.textContent = x.main.temp.toFixed(0);
-      let imgsrc = `https://openweathermap.org/img/w/${x.weather[0].icon}.png`;
+      let imgsrc = `images/${x.weather[0].icon}.png`;
       let imgalt = x.weather[0].description;
       imgalt = imgalt.split(' ').map(capitalize).join(' ');
       currentTemp.textContent = x.main.temp.toFixed(0);
