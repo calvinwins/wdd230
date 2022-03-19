@@ -73,4 +73,18 @@ div.card-view {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+/* contact */
+main.contact {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
+    max-width: 1200px
+}
+div.map {
+    margin-top: 30px;
+}
+div.location{
+    margin-top: 20px;
+}
+
 }
