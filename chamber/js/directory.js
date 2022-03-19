@@ -9,7 +9,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const businesses = jsonObject['businesses'];
-    businesses.forEach(displayBusinesses);  // loop through each prophet
+    businesses.forEach(displayBusinesses);  // loop through each business
   });
 
   

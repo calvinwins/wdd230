@@ -173,14 +173,31 @@ main.index button:hover {
     padding: 5px;
     margin: auto;
 }
-.spotlight h3{
-    background-color: #00476e;
-    color: white;
+.spotlight h3 {
+    text-align: center;
+}
+.spotlights {
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    background-color:var(--back1);
+    margin-top: 10px;
+}
+div.spots {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.spotlight img {
+    text-align: center;
+    width: 15%;
+    background-color: var(--borderlight);
     padding: 5px;
 }
-.spotlight p {
-    padding: 5px;
+.spotlight {
+    padding: 10px
 }
+
 
 .event {
     text-align: center;

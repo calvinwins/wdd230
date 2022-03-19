@@ -21,7 +21,7 @@
 	}
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
 		grid-column-gap: 1em;
 		max-width: 675px;
 		margin: auto;
@@ -40,14 +40,11 @@
 		grid-column: 1 / span 3;
 		grid-row: 3;
 	}
-	.spotlight p{
-		padding: 20px
-	}
 	.newRelease {
 		grid-column: 1 / span 3;
 		grid-row: 2;
 	}
-	main.index section.spotlight {
+	div.spots {
 		grid-template-rows: 1fr 1fr;
 		display: grid;
 	

@@ -47,9 +47,14 @@ main.index section.join{
 main.index section.spotlight{
     grid-column: 3;
     grid-row: 1/4;
+}
+.spotlights{
+    margin-top: 45px;
+}
+/* div.spotlights {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-}
+} */
 #spotlight3 {
     display: initial;
 }

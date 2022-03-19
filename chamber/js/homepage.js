@@ -21,7 +21,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
         const businessesStatus = businesses.filter((business) => {
-            return business.membship == "Bronze" || business.membship == "Silver" || business.membship == "Gold";
+            return business.membership == "Bronze" || business.membership == "Silver" || business.membership == "Gold";
         });
         spotlights.forEach((spotlight,index) => {
             const i = Math.floor(Math.random()*businessesStatus.length);
@@ -43,7 +43,7 @@ fetch(requestURL)
             spotlight.appendChild(pn);
             // //website
             let web = document.createElement('p');
-            web.textContent = `Website: ${business.website}`;
+            web.textContent = business.website;
             spotlight.appendChild(web);
 
 
