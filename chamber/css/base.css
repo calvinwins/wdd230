@@ -194,11 +194,13 @@ div.spots {
     background-color: var(--borderlight);
     padding: 5px;
 }
+.spotlight a{
+    text-decoration: none;
+    color: var(--border);
+}
 .spotlight {
     padding: 10px
 }
-
-
 .event {
     text-align: center;
 }
@@ -215,9 +217,7 @@ div.spots {
     padding: 5px;
     text-align: center;
 }
-#weathericon {
-    width: 90px;
-}
+
 /* DISCOVER */
 .discover h2 {
     color: var(--borderlight);
@@ -572,9 +572,7 @@ main.contact {
         padding: 10px;
     
     }
-.weather img {
-    background-color: #005f90;
-}
+
 
 
 

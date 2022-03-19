@@ -43,9 +43,14 @@ fetch(requestURL)
             pn.textContent = `Phone: ${business.phone}`;
             spotlight.appendChild(pn);
             //website
-            // let web = document.createElement('p');
-            // web.innhtml = business.website;
-            // spotlight.appendChild(web);
+            let web = document.createElement('a');
+            let link = document.createTextNode(`link: ${business.name}`);
+            web.appendChild(link)
+            web.title = business.name;
+            web.href = business.website;
+            web.target = "_blank"
+            spotlight.appendChild(web); 
+              
 
 
             businessesStatus.splice(i,1);
