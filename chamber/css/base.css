@@ -198,6 +198,9 @@ main.index button:hover {
     padding: 5px;
     text-align: center;
 }
+#weathericon {
+    width: 100px;
+}
 /* DISCOVER */
 .discover h2 {
     color: var(--borderlight);
