@@ -349,7 +349,7 @@ input[type='radio']:after {
     border-radius: 14px;
     top: -2px;
     left: -1px;
-    background-color: var(--borderlight);
+    background-color: rgb(212, 212, 212);
     content: '';
     display: inline-block;
     visibility: visible;
