@@ -1,0 +1,13 @@
+:root {
+	--back1: #88BDBC;
+  --back2: #254E58;
+  --back3: #112D32;
+  --back4:  #4F4A41;
+  --back5: #6E6658;
+  --dark: hsla(0,0%,10%,1);
+	--light: rgb(248, 248, 248);
+	--border: #e48000;
+	--borderlight: rgb(255, 255, 255);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
