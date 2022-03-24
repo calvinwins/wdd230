@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latter Day Resort</title>
+    <meta name="description" content="A resort for those who are traveling to a temple and need a comfortable place to stay. A Resort to escape from the hectic demands of day-to-day life" />
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/home.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="alert"></div>
+            <div class="head">
+                <img src="images/latter_day_resort.webp" alt='Latter Day Resort logo'>
+                <h1>Latter Day Resort</h1>
+                  <div class="social">
+                    <a id="social1" href="https://www.linkedin.com/" target="_blank">
+                      <img src="images/linkden.png" alt='linkedin logo'>
+                    </a>
+                    <a id='socialb' href="https://www.facebook.com/" x>
+                      <img src="images/facebook.png" alt="facebook logo">
+                    </a>
+                  </div>
+                  <nav>
+                    <ul class='navigation'>
+                      <li><a class="menu" href='#'> Menu</a></li>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="temple.html"> Temple</a></li>
+                        <li><a href="reservation.html"> Reservation</a></li>
+                        <li><a href="services.html"> Services</a></li>
+                    </ul>
+                  </nav>
+                  <span id="currentDate"></span>
+            </div>
+        </header>
+        <main class="home">
+            <section class="hero">
+                <h2>Escape the World</h2>
+                <picture>
+                    <source media="(max-width: 33.9em)" srcset="images/small.jpg">
+                    <source media="(max-width: 799px)" srcset="images/medium.jpg">
+                    <source media="(max-width: 2500px)" srcset="images/large.jpg">
+                    <img src="images/small.jpg" alt="">
+                </picture>
+                <button class="hero"></button>
+            </section>
+            <section class="weather">
+                <h3>Weather</h3>
+            <img src="" alt="" id="weathericon" />
+            <figcaption></figcaption>
+            <hr>
+            <p><span id="current-temp"></span> °F</p>
+            <p>Humitity: <span id='humitity'></span>%</p>
+            </section>
+            <section class="forecast">
+                <h3>3-Day Forecast</h3>
+            </section>
+            <section class="temple-home">
+                <h3>Blank Temple</h3>
+                <img src="" alt="">
+                <p>Tis temple has</p>
+            </section>
+        </main>
+        <footer>
+            <footer>
+        <div class='top-footer'> 
+          <div class="first">
+            <img src="images/greater-bentonville-chamber_1.webp" alt='Greater Bentonbille Commerse logo'>
+            <h2 >Greater Bentonville Commerse</h2>
+            <p>address:  702 SE 5th St #40, Bentonville, AR 72712</p>
+          </div>
+          <div class="second">
+            <P>email: srolsma@greaterbentonville.com</P>
+            <P>phone: (479) 273-2841</p>
+          </div>
+        </div>
+        <div class='bottom-footer'> <span id="currentYear"></span> | Calvin M. Weaver | Arkansas    
+        <p id="lastmod"></p></div>
+        </footer>
+    </body>
