@@ -43,3 +43,19 @@ fetch(apiURL)
     //   currentAlert.textContent = alertName,alertStart,alertEnd;
 
     });
+
+    // response.json().then(function (data) {
+    //     var fday = "";
+    //     data.daily.forEach((value, index) => {
+    //         if (index > 0) {
+    //             var dayname = new Date(value.dt * 1000).toLocaleDateString("en", {
+    //                 weekday: "long",
+    //             });
+    //             var icon = value.weather[0].icon;
+    //             var temp = value.temp.day.toFixed(0);
+    //             fday = `<div class="forecast-day">
+    //                 <p>${dayname}</p>
+    //                 <p><span class="ico-${icon}" title="${icon}"></span></p>
+    //                 <div class="forecast-day--temp">${temp}<sup>°C</sup></div>
+    //             </div>`;
+    //             forecastEl[0].insertAdjacentHTML('beforeend', fday);
