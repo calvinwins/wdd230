@@ -54,6 +54,12 @@ header h1{
 	max-width: 1200px;
 	margin: auto;
 }
+figcaption {
+	text-transform: capitalize;
+}
+.weather-icon {
+	text-transform: capitalize;
+}
 main {
 	background-color: var(--back1);
 	padding: 1em;
