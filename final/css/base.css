@@ -43,6 +43,7 @@ header {
 .navigation a:hover {
 	color: white;
 	background-color: var(--back1);
+	cursor: pointer;
 }
 
 .responsive li {
@@ -92,10 +93,12 @@ p {
     width:200px;
     height:40px;
 }
-.hero button::hover {
+.hero button:hover {
 	background-color: var(--back1);
+	cursor: pointer;
 }
 footer{
+	padding: 10px;
 	background-color: var(--accent1);
 	color: var(--light);
 	text-align: center;

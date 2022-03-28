@@ -1,0 +1,7 @@
+@media only screen and (min-width: 34em) {
+	
+	#logo {
+		float: left;
+		margin-left: 10px;
+	}
+}
