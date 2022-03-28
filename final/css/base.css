@@ -71,6 +71,30 @@ p {
 .home section {
 	background: var(--light)
 }
+.hero img {
+	width: 100%;
+    height: auto;
+}
+.hero {
+	background-color: none;
+    margin: 10px auto;
+    position: relative;
+}
+.hero h2 { 
+    position: absolute;
+    padding: 10px;}
+.hero button {
+	position: absolute;
+    background-color: var(--back2);
+    color: var(--light);
+    bottom:20px;
+    right:20px;
+    width:200px;
+    height:40px;
+}
+.hero button::hover {
+	background-color: var(--back1);
+}
 footer{
 	background-color: var(--accent1);
 	color: var(--light);
