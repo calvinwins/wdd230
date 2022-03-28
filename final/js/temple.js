@@ -1,3 +1,5 @@
+const api = 'https://calvinwins.github.io/wdd230/final/temple.json'
+
 let templeList = [];
 
 // Step 2: Declare a function named output that accepts a list of temples as an array argument and does the following for each temple:
@@ -58,7 +60,7 @@ const output = (temples) => {
 //    });
 
 // Step 7: Finally, call the output function and pass it the list of temples
-fetch('temple.json')
+fetch(api)
     .then(response => response.json())
     .then(temples => {
         templeList = temples;
