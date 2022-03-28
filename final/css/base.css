@@ -68,6 +68,9 @@ p {
 	font-size: 1.1em;
 	font-family: BonaNova, OpenSans;
 }
+.home section {
+	background: var(--light)
+}
 footer{
 	background-color: var(--accent1);
 	color: var(--light);
