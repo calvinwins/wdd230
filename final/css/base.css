@@ -75,8 +75,8 @@ p {
 	width: 100%;
     height: auto;
 }
-.hero {
-	background-color: none;
+.home section.hero {
+	background-color: var(--back1);
     margin: 10px auto;
     position: relative;
 }
