@@ -1,4 +1,4 @@
-const api = 'https://calvinwins.github.io/wdd230/final/temple.json'
+const api = 'https://byui-cse.github.io/cse121b-course/week05/temples.json'
 
 let templeList = [];
 
@@ -60,7 +60,7 @@ const output = (temples) => {
 //    });
 
 // Step 7: Finally, call the output function and pass it the list of temples
-fetch('https://byui-cse.github.io/cse121b-course/week05/temples.json')
+fetch(api)
     .then(response => response.json())
     .then(temples => {
         templeList = temples;
