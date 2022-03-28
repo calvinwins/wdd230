@@ -1,13 +1,69 @@
 :root {
 	--back1: #88BDBC;
   --back2: #254E58;
-  --back3: #112D32;
-  --back4:  #4F4A41;
-  --back5: #6E6658;
+  --accent1: #112D32;
+  --accent2:  #4F4A41;
+  --light2: #6E6658;
   --dark: hsla(0,0%,10%,1);
 	--light: rgb(248, 248, 248);
 	--border: #e48000;
 	--borderlight: rgb(255, 255, 255);
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(0, 0%, 93%, 1);
+}
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: var(--accent1);
+	color: var(--light);
+}
+.navigation{
+    padding: 0
+}
+
+.navigation li:first-child {
+        display: block;
+    }
+
+.navigation li {
+    display: none;
+    }
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: 1.3em;
+}
+
+
+.navigation a:hover {
+	color: white;
+	background-color: var(--back1);
+}
+
+.responsive li {
+	display: block;
+}
+header h1{
+	color: var(--light);
+	font-family: Quicksand;
+	max-width: 1200px;
+	margin: auto;
+}
+main {
+	background-color: var(--back1);
+	padding: 1em;
+}
+p {
+	font-size: 1.1em;
+	font-family: BonaNova, OpenSans;
+}
+footer{
+	background-color: var(--accent1);
+	color: var(--light);
+	text-align: center;
 }
