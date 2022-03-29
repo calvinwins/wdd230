@@ -43,24 +43,7 @@
       </header>
       <main class="reservation">
         <h2>Reservations</h2>
-        <form method="get" action="thankyou.html"></form>
-        <fieldset class="pi">
-          <legend>Personal Information</legend>
-          <label class="pi">First Name*
-          <input type="text" name="fname" required></label>
-          <label class="pi">Last Name*
-          <input type="text" name="lname" required></label>
-          <label class="pi">Age*
-          <input type="text" name="bposition" pattern="[1-105]"></label>
-          <label class="pi">Email*
-          <input type="email" name="email" placeholder="fake@gmail.com" required></label>
-          <label class="pi">Phone Number*
-          <input type="tel" name="phone" required></label>
-          <label class="pi">Occupation
-          <input type="text" name="title" required></label>
-          <label class="'pi">Special Request
-          <textarea name="bdescription" style= "width: 323px; height: 127px;"></textarea></label>
-      </fieldset>
+        <form method="get" action="confirmation.html"></form>
         <fieldset>
           <legend>Rooms</legend>
           <label class="rooms">
@@ -68,28 +51,46 @@
             <span class="level"> 1 King </span>
             <span class="cost"> 88 USD/night </span>
             </label>
-            <img src="" alt="">
+            <img src="images/king.jpg" alt="1 King Bedroom"
             <p class="room">A great opprotunity for Non profit organizations that want to connect with local businesses. Whether you are looking to expand your network or looking for community outreach, the Greater Area Commerce can help your organization.</p>
-            <label class="mp">
+            <label class="rooms">
             <input type="radio" class="radio" name="membership" value="bronze">
             <span class="level"> 2 Queen </span>
             <span class="cost"> 110 USD/night </span>
             </label>
+            <img src="images/queen.jpg" alt="2 Queen Bedroom">
             <p class="room">An affordable price for great business opprotunities. If you want to be a more active member in the community and be invited to participate in local events then the bronze membership might be for you.</p>
-            <label class="mp">
+            <label class="rooms">
             <input type="radio" class="radio" name="membership" value="silver">
             <span class="level"> 1 King Suite </span>
             <span class="cost"> 145 USD/night </span>
             </label>
             <p class="room">A higher priority access to all local and private events held by the Bentonville Greater Area Commerce. This gives you and your business a higher visibility amongst others in the community and businesses in the area,</p>
-            <label class="mp">
+            <label class="rooms">
             <input type="radio" class="radio" name="membership" value="gold">
             <span class="level"> 2 Queen Suite </span>
             <span class="cost"> 160 USD/night </span>
             </label>
             <p class="room">The gold membership gives you and your company complete access to the Greater Area Commmerse resources. Your company will be the featured business on the Greater Area Commerse homepage. Your company will recieve invitations to every exculsive and public event held by the commerse.</p>
         </fieldset>
+        <fieldset class="pi">
+          <legend>Personal Information</legend>
+          <label class="pi">First Name*
+          <input type="text" name="fname" required></label>
+          <label class="pi">Last Name*
+          <input type="text" name="lname" required></label>
+          <label class="pi">Check if you are 18yrs old or older
+          <input type="checkbox" name="18" required></label>
+          <label class="pi">Email*
+          <input type="email" name="email" placeholder="fake@gmail.com" required></label>
+          <label class="pi">Phone Number*
+          <input type="tel" name="phone" required></label>
+          <label class="pi">Occupation
+          <input type="text" name="title" required></label>
+          <label class="pi">Special Request
+          <textarea name="bdescription" style= "width: 323px; height: 127px;"></textarea></label>
+        </fieldset>
         <input type="submit" class="submit" value="confirm reservation">
-       </form>
+      </form>
       
       </main>
