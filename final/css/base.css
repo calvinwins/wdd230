@@ -72,7 +72,7 @@ figcaption {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 2fr;
+	grid-template-rows: .5fr 1fr 1fr 1fr;
 	background-color: var(--back1);
 	padding: 1em;
 }
@@ -100,6 +100,7 @@ section.forecast {
 
 section.temple-home div{
 	background-color: var(--light);
+	padding: 10px;
 }
 .temple-home img {
 	width: 100%;
@@ -124,11 +125,7 @@ section.temple-home div{
 	color: var(--white);
 	background-color: var(--back2);
 }
-div.forecast {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 1em;
-}
+
 footer{
 	padding: 10px;
 	background-color: var(--accent1);
