@@ -65,12 +65,14 @@
             <span class="level"> 1 King Suite </span>
             <span class="cost"> 145 USD/night </span>
             </label>
+            <img src="images/kingst.jpg" alt="1 King Suite">
             <p class="room">A higher priority access to all local and private events held by the Bentonville Greater Area Commerce. This gives you and your business a higher visibility amongst others in the community and businesses in the area,</p>
             <label class="rooms">
             <input type="radio" class="radio" name="membership" value="gold">
             <span class="level"> 2 Queen Suite </span>
             <span class="cost"> 160 USD/night </span>
             </label>
+            <img src="images/queenst.jpg" alt="2 Queen Suite">
             <p class="room">The gold membership gives you and your company complete access to the Greater Area Commmerse resources. Your company will be the featured business on the Greater Area Commerse homepage. Your company will recieve invitations to every exculsive and public event held by the commerse.</p>
         </fieldset>
         <fieldset class="pi">
@@ -87,6 +89,10 @@
           <input type="text" name="title"></label>
           <label class="pi">Check if you are over 18yrs old*
           <input type="checkbox" name="18" required></label>
+          <label class="pi">Reservation Days*
+          <input type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}" min="2022-04-05" max="2023-04-20" required>
+          </label>
+        </form>
         </fieldset>
         <input type="submit" class="submit" value="confirm reservation">
       </form>

@@ -254,21 +254,25 @@ main.reservation {
 		padding: 10px;
 	
 	}
-	main.thankyou {
-		max-width: 500px;
+	main.confirmation {
 		display: block;
+		
+		}
+	div.confirmation{
 		padding: 0 200px;
 		margin: auto;
-		}
-	main.thankyou h2 {
+		max-width: 500px;
+	}
+	main.confirmation h2 {
 		
 		padding: 5px;
 		text-align: center;
 		background-color: var(--back1);
 	}
-	main.thankyou p {
+	main.confirmation p {
+		color: var(--white);
 		padding: 2em;
-		background-color: #005f90;
+		background-color: var(--back2);
 		font-size: 20px;
 		border-radius: 5px;
 	}
