@@ -43,15 +43,15 @@
       </header>
       <main class="reservation">
         <h2>Reservations</h2>
-        <form method="get" action="confirmation.html"></form>
-        <fieldset>
+        <form method="get" action="confirmation.html">
+        <fieldset class="roomOpt">
           <legend>Rooms</legend>
           <label class="rooms">
-            <input type="radio" class="radio" name="membership" value="np">
+            <input type="radio" class="radio" name="membership" value="np" required>
             <span class="level"> 1 King </span>
             <span class="cost"> 88 USD/night </span>
             </label>
-            <img src="images/king.jpg" alt="1 King Bedroom"
+            <img src="images/king.jpg" alt="1 King Bedroom">
             <p class="room">A great opprotunity for Non profit organizations that want to connect with local businesses. Whether you are looking to expand your network or looking for community outreach, the Greater Area Commerce can help your organization.</p>
             <label class="rooms">
             <input type="radio" class="radio" name="membership" value="bronze">
@@ -79,16 +79,14 @@
           <input type="text" name="fname" required></label>
           <label class="pi">Last Name*
           <input type="text" name="lname" required></label>
-          <label class="pi">Check if you are 18yrs old or older
-          <input type="checkbox" name="18" required></label>
           <label class="pi">Email*
           <input type="email" name="email" placeholder="fake@gmail.com" required></label>
           <label class="pi">Phone Number*
           <input type="tel" name="phone" required></label>
           <label class="pi">Occupation
-          <input type="text" name="title" required></label>
-          <label class="pi">Special Request
-          <textarea name="bdescription" style= "width: 323px; height: 127px;"></textarea></label>
+          <input type="text" name="title"></label>
+          <label class="pi">Check if you are over 18yrs old*
+          <input type="checkbox" name="18" required></label>
         </fieldset>
         <input type="submit" class="submit" value="confirm reservation">
       </form>

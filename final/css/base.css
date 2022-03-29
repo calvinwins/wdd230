@@ -163,12 +163,7 @@ main.reservation {
 		border-radius: 10px;
 	}
 	
-	form label {
-		display: block;
-		padding: 1em;
-		color: var(--dark);
-		font-size: .8em;
-	}
+	
 	.radio {
 		cursor: pointer;
 	
@@ -206,9 +201,9 @@ main.reservation {
 		cursor: pointer;
 	}
 	
-	form label.pi input:required {
+	/* form label.pi input:required {
 		border: solid 2px var(--accent1) ;
-	}
+	} */
 
 	input[type='radio']:after {
 		width: 15px;
@@ -234,9 +229,9 @@ main.reservation {
 		color: var(--white);
 		border-radius: 10px;
 	}
-	form label textarea {
+	/* form label textarea {
 		display: flex;
-	}
+	} */
 	.level {
 		font-size: 1.2em;
 		font-weight: bold;
