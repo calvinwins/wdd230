@@ -4,4 +4,41 @@
 		float: left;
 		margin-left: 10px;
 	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+	}
+	.hero {
+		grid-column: 1 / span 3;
+	}
+	.weather{
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.forecast{
+		grid-column: 2 / span 3;
+		grid-row: 2;
+	}
+	.temple-home{
+		grid-column: 1 / span 3;
+		grid-row: 3;
+		display: grid;
+	}
+	.temple-home div{
+		margin-top: 55px;
+		width: 85%;
+		padding: 3em 3vw;
+		box-shadow: 18vmin 0 0 var(--light);
+		z-index: 2;
+		grid-column: 1;
+		margin-left: 45px;
+		margin-bottom: 10px;
+	}
+	.temple-home img{
+		margin: auto 0;
+		z-index: 3;
+		grid-column: 2;
+	}
 }

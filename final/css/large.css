@@ -1,7 +1,9 @@
 @media only screen and (min-width: 800px){
+
     .navigation {
 		display: flex;
         margin: auto;
+        justify-content: end;
 	}
     nav {
         margin: auto;
@@ -9,7 +11,9 @@
     }
     div.head {
         display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr;
+        grid-template-columns: 1fr 1fr 2.5fr .5fr;
+        margin-left: 25px;
+        margin-right: 50px;
     }
     div.social {
         margin: auto;
@@ -23,7 +27,7 @@
 	}
 	.navigation a {
 		text-align: center;
-        padding: .5em;
+        padding: 1em;
         font-size: 1.3em;
 	}
 	.navigation li:first-child {
