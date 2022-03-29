@@ -1,7 +1,21 @@
 @media only screen and (min-width: 800px){
     .navigation {
 		display: flex;
+        margin: auto;
 	}
+    nav {
+        margin: auto;
+        grid-column: 3;
+    }
+    div.head {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+    }
+    div.social {
+        margin: auto;
+        grid-column: 4;
+    }
+    
 	.navigation li {
 		text-align: center;
 		display: block; 
@@ -9,6 +23,8 @@
 	}
 	.navigation a {
 		text-align: center;
+        padding: .5em;
+        font-size: 1.3em;
 	}
 	.navigation li:first-child {
 		display: none;
