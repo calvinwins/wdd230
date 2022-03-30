@@ -106,4 +106,29 @@
 		border-radius: 20px;
 		margin: 40px;
 	}
+	/* reservation */
+	form.reservation {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		max-width: 1800px;
+	}
+	fieldset.roomOpt {
+		margin: auto;
+	}
+	fieldset.pi{
+		margin: 5px;
+		margin-left: 30px;
+		max-height: 450px;
+	}
+	input.submit{
+		margin: auto;
+		margin-top: 20px;
+	}
+	/* temple */
+	div#temples{
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+    	grid-template-rows: 1fr 1fr 1fr;
+	}
 }
