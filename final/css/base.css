@@ -136,8 +136,8 @@ footer{
 main.reservation {
 	display: block;
 	margin: auto;
-
 	}
+
 	
 	form {
 		margin: auto;
@@ -157,7 +157,7 @@ main.reservation {
 	}
 	
 	legend {
-		color: var(--light);
+		color: var(--white);
 		padding: 10px;
 		background-color: var(--accent2);
 		border-radius: 10px;
@@ -182,7 +182,8 @@ main.reservation {
 		background-color: var(--white);
 	}
 	fieldset img {
-		padding: 10px;
+		padding: 5px;
+		margin: 10px;
 	}
 	
 	
@@ -224,7 +225,7 @@ main.reservation {
 	span.cost {
 		font-size: 1.2em;
 		background-color: var(--accent2);
-		padding: 5px;
+		padding: 8px;
 		margin: 25px;
 		color: var(--white);
 		border-radius: 10px;
@@ -235,14 +236,24 @@ main.reservation {
 	.level {
 		font-size: 1.2em;
 		font-weight: bold;
-		padding: 5px;
+		padding: 8px;
+		margin: 25px;
 		background-color: var(--accent1);
 		color: var(--white);
+		border-radius: 10px;
 	}
 	.rooms {
 		margin-top: 10px;
 		padding: 10px;
 		
+	}
+	p.room {
+		border: 3px solid var(--back2);
+		background-color: var(--back2);
+		color: var(--white);
+		padding: 7px;
+		border-radius: 10px;
+		margin-top: 2px
 	}
 	main.reservation h2 {
 		background-color: var(--back2);
@@ -252,7 +263,7 @@ main.reservation {
 		margin-top: 10px;
 		text-align: center;
 		padding: 10px;
-	
+		color: var(--white);
 	}
 	main.confirmation {
 		display: block;
