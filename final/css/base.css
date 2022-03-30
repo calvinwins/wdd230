@@ -107,7 +107,7 @@ section.forecast {
 }
 
 
-temple-home div{
+.temple-home div{
 	background-color: var(--light);
 	padding: 10px;
 	border-radius: 20px;
