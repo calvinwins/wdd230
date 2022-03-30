@@ -106,12 +106,14 @@ section.forecast {
     position: relative;
 }
 
+
 section.temple-home div{
 	background-color: var(--light);
 	padding: 10px;
 	border-radius: 20px;
+	margin-bottom: 10px;
 }
-section.temple-home div p{
+.temple-home div p{
 	padding: 20px 0;
 }
 .temple-home img {
