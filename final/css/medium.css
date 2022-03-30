@@ -26,7 +26,7 @@
 		grid-column: 1 / span 2;
 	}
 	.weather{
-		grid-column: 1 / span 2;
+		grid-column: 2;
 		grid-row: 3;
 	}
 	.forecast{
@@ -36,21 +36,20 @@
 	.temple-home{
 		grid-column: 2;
 		grid-row: 2;
-	
 	}
-	/* .temple-home div{
-		margin-top: 55px;
-		width: 85%;
-		padding: 3em 3vw;
-		box-shadow: 18vmin 0 0 var(--light);
-		z-index: 2;
-		grid-column: 1;
-		margin-left: 45px;
+	.temple-home div{
 		margin-bottom: 10px;
 	}
-	.temple-home img{
-		margin: auto 0;
-		z-index: 3;
-		grid-column: 2;
-	} */
+	section.rental{
+		display: block;
+		text-align: center;
+		background-color: var(--light2);
+		border-radius: 20px;
+	}
+	section.rental p{
+		color: var(--light);
+		border-radius: 20px;
+		padding: 8px;
+	}
+
 }
