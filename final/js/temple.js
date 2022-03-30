@@ -1,4 +1,4 @@
-const api = 'https://byui-cse.github.io/cse121b-course/week05/temples.json'
+const api = 'https://calvinwins.github.io/wdd230/final/temple.json'
 
 let templeList = [];
 
