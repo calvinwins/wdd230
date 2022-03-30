@@ -20,10 +20,10 @@ const output = (temples) => {
             templeName.textContent = temple.templeName;
 
             let location = document.createElement('h4');
-            location.textContent = temple.location;
+            location.textContent = `Location: ${temple.location}`;
 
             let dedicated = document.createElement('h4');
-            dedicated.textContent = temple.dedicated;
+            dedicated.textContent = `Dedication: ${temple.dedicated}`;
 
             let img = document.createElement('img');
             img.setAttribute('src', temple.imageUrl);

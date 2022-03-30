@@ -285,3 +285,6 @@ main.reservation {
 	main.temple{
 		display: block;
 	}
+	.temple img{
+		width: 100%
+	}
