@@ -81,9 +81,11 @@ p {
 	font-family: BonaNova, OpenSans;
 }
 .weather {
+	text-align: center;
 	background-color: var(--light);
 }
 section.forecast {
+	text-align: center;
 	background-color: var(--light);
 }
 .hero img {
@@ -131,6 +133,9 @@ footer{
 	background-color: var(--accent1);
 	color: var(--light);
 	text-align: center;
+}
+div.second img{
+	display: none
 }
 /* reservations */
 main.reservation {
