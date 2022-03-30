@@ -97,4 +97,16 @@
 		grid-column: 1 / span 2;
 		grid-row: 2;
 	}
+	section.rental{
+		display: block;
+		grid-column: 3;
+		grid-row: 3;
+		text-align: center;
+		background-color: var(--light2);
+		border-radius: 20px;
+	}
+	section.rental p{
+		background-color: var(--light);
+		color: var(--white);
+	}
 }
