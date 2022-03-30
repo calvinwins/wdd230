@@ -105,8 +105,4 @@
 		background-color: var(--light2);
 		border-radius: 20px;
 	}
-	section.rental p{
-		background-color: var(--light);
-		color: var(--white);
-	}
 }
