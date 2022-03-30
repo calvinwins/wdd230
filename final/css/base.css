@@ -107,7 +107,7 @@ section.forecast {
 }
 
 
-section.temple-home div{
+temple-home div{
 	background-color: var(--light);
 	padding: 10px;
 	border-radius: 20px;
@@ -121,15 +121,15 @@ section.temple-home div{
 }
 .hero h2 { 
     position: absolute;
-    padding: 10px;}
+    padding: 15px;}
 .hero button {
 	position: absolute;
     background-color: var(--back2);
     color: var(--white);
-    bottom:20px;
-    right:20px;
-    width:200px;
-    height:40px;
+	bottom: 30px;
+    right: 30px;
+    width: 225px;
+    height: 50px;
 }
 .hero button:hover {
 	background-color: var(--back1);
