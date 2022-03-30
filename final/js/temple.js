@@ -25,6 +25,21 @@ const output = (temples) => {
             let dedicated = document.createElement('h4');
             dedicated.textContent = `Dedication: ${temple.dedicated}`;
 
+            let services = document.createElement('p')
+            services.textContent = `Services: ${temple.services}`;
+
+            let phone = document.createElement('p')
+            phone.textContent = `phone: ${temple.phone}`;
+
+            let ordinanceSchedule = document.createElement('p')
+            ordinanceSchedule.textContent = `Ordinance Schedule: ${temple.ordinanceSchedule}`;
+
+            let closure = document.createElement('p')
+            closure.textContent = `Closure: ${temple.closure}`;
+
+            let sessionSchedule = document.createElement('p')
+            sessionSchedule.textContent = `Session Schedule: ${temple.sessionSchedule}`;
+
             let img = document.createElement('img');
             img.setAttribute('src', temple.imageUrl);
             img.setAttribute('alt', temple.templeName);
@@ -32,6 +47,11 @@ const output = (temples) => {
             article.appendChild(templeName);
             article.appendChild(location);
             article.appendChild(dedicated);
+            article.appendChild(services);
+            article.appendChild(phone);
+            article.appendChild(ordinanceSchedule);
+            article.appendChild(closure);
+            article.appendChild(sessionSchedule);
             article.appendChild(img);
 
             document.querySelector('#temples').appendChild(article);
