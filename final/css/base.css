@@ -69,6 +69,9 @@ figcaption {
 .weather-icon {
 	text-transform: capitalize;
 }
+section.rental {
+	display: none
+}
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -82,11 +85,13 @@ p {
 }
 .weather {
 	text-align: center;
-	background-color: var(--light);
+	background-color: var(--light2);
+	border-radius: 20px;
 }
 section.forecast {
 	text-align: center;
 	background-color: var(--light);
+	border-radius: 20px;
 }
 .hero img {
 	width: 100%;
@@ -103,6 +108,10 @@ section.forecast {
 section.temple-home div{
 	background-color: var(--light);
 	padding: 10px;
+	border-radius: 20px;
+}
+section.temple-home div p{
+	padding: 20px 0;
 }
 .temple-home img {
 	width: 100%;
