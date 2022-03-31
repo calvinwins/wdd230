@@ -293,6 +293,7 @@ main.reservation {
 		padding: 10px;
 		color: var(--white);
 	}
+	/* confirmation */
 	main.confirmation {
 		display: block;
 		
@@ -341,11 +342,7 @@ main.reservation {
 		border-radius: 10px;
 	}
 	/* Services */
-	.service h2 {
-		color: var(--borderlight);
-		background-color: var(--back2);
-		padding: 10px;
-	}
+
 	.service img[data-src] {
 		filter: blur(.2em);
 		width: 100%;
@@ -367,16 +364,59 @@ main.reservation {
 		padding: 5px;
 		color: var(--white);
 	}
+	div.service {
+		border: 4px solid var(--accent2);
+		border-radius: 20px;
+	}
 	div.service div {
 		max-width: 900px;
 		margin: 30px;
 		padding: 30px;
+		color: var(--white);
+		padding: 2em;
+		background-color: var(--back2);
+		font-size: 20px;
+		border-radius: 5px;
 	}
 
 	.service {
 		margin: auto;
 		display: block;
 	}
-	.service p {
-		color: black;
+	.service a{
+		text-decoration: none;
+		color: var(--border);
+	}
+	.service h2 {
+		text-align: center;
+		
+	}
+	/* sub-page */
+	main.sub {
+		display: block;
+		
+		}
+	div.sub{
+		padding: 0 20px;
+		margin: auto;
+		max-width: 1000px;
+		text-align: center;
+	}
+	main.sub h2 {
+		
+		padding: 5px;
+		text-align: center;
+		background-color: var(--back1);
+	}
+	main.sub p {
+		color: var(--white);
+		padding: 2em;
+		background-color: var(--back2);
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	.sub img {
+		width: 90%;
+		max-width: 500px;
+		padding: 5px;
 	}
