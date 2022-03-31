@@ -131,4 +131,19 @@
 		grid-template-columns: 1fr 1fr ;
     	grid-template-rows: 1fr 1fr 1fr;
 	}
+	/* services */
+	div.service div{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	div.service h3{
+		grid-column: 2;
+		grid-row: 1;
+	}
+	div.service p{
+		grid-column: 2;
+		grid-row: 1;
+	}
+
 }
