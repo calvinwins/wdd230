@@ -340,3 +340,47 @@ main.reservation {
 		padding: 15px;
 		border-radius: 10px;
 	}
+	/* Services */
+	.service h2 {
+		color: var(--borderlight);
+		background-color: var(--back2);
+		padding: 10px;
+	}
+	.service img:hover {
+		box-shadow: 0 0 50px white;
+	}
+	.service img[data-src] {
+		filter: blur(.2em);
+		width: 100%;
+		height: auto;
+	}
+	
+	.service img {
+		filter: blur(0em);
+		transition: filter 0.5s;
+		width: 100%;
+		height: auto;
+	}
+	.service h3 {
+		text-align: center;
+		padding: 5px;
+		background-color: #00476e;
+	}
+	.service div p {
+		padding: 5px;
+		background-color: #00476e;
+		color: white;
+	}
+	.service div {
+		margin: 30px;
+		padding: 30px;
+		background-color: #005f90;
+	}
+	.service {
+		margin: auto;
+		display: block;
+		max-width: 710px;
+	}
+	.service p {
+		color: black;
+	}
