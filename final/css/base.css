@@ -87,6 +87,7 @@ p {
 	text-align: center;
 	background-color: var(--light2);
 	border-radius: 20px;
+	color: var(--light);
 }
 section.forecast {
 	text-align: center;

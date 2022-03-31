@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=46.7167492&lon=-101.0540921&exclude=minutely,hourly&units=imperial&appid=a1a0a55f931ddc473d7fe806f1504796'
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=46.7167492&lon=-101.0540921&exclude=minutely,hourly&units=imperial&appid=e9fa057ce74938037ddab696313f82f2'
 
 //current weather
 fetch(apiURL)
