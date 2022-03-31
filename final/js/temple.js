@@ -44,6 +44,19 @@ const output = (temples) => {
             img.setAttribute('src', temple.imageUrl);
             img.setAttribute('alt', temple.templeName);
 
+            let likeButton = document.createElement('button');
+            // let imgButton = document.createElement('img');
+            // imgButton.setAttribute('src', 'images/like.png');
+            // imgButton.setAttribute('alt', `likeButton`)
+            likeButton.innerHTML = 'like'
+                likeButton.setAttribute('id', 'btn')
+
+            likeButton.addEventListener('click', function onClick() {
+            likeButton.style.backgroundColor = 'salmon';
+            likeButton.style.color = 'white';
+            });
+
+
             article.appendChild(templeName);
             article.appendChild(location);
             article.appendChild(dedicated);
@@ -53,6 +66,7 @@ const output = (temples) => {
             article.appendChild(closure);
             article.appendChild(sessionSchedule);
             article.appendChild(img);
+            article.appendChild(likeButton);
 
             document.querySelector('#temples').appendChild(article);
         }
@@ -132,5 +146,24 @@ const sortBy = () => {
     }
 }
 
-// Step 10: Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
 document.querySelector('#sortBy').addEventListener('change', sortBy);
+
+var count = 1;
+function setColor(btn, color) {
+    var property = document.getElementById(btn);
+    if (count == 0) {
+        property.style.backgroundColor = "#FFFFFF"
+        count = 1;        
+    }
+    else {
+        property.style.backgroundColor = "#7FFF00"
+        count = 0;
+    }
+    }
+    let buttonclick = Number(window.localStorage.getItem('button'));
+    let lastVisit= Number(window.localStorage.getItem('lastVisits'));
+
+
+    let numOfDays = Math.floor(daysBetween / FACTOR);
+
+    localStorage.setItem('lastVisits', Date.now());
