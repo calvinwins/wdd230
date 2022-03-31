@@ -44,18 +44,34 @@ const output = (temples) => {
             img.setAttribute('src', temple.imageUrl);
             img.setAttribute('alt', temple.templeName);
 
-            let likeButton = document.createElement('button');
+            let likeButton = document.createElement('input');
             // let imgButton = document.createElement('img');
             // imgButton.setAttribute('src', 'images/like.png');
-            // imgButton.setAttribute('alt', `likeButton`)
-            likeButton.innerHTML = 'like'
-                likeButton.setAttribute('id', 'btn')
+            // imgButton.setAttribute('alt', `likeButton`)  
+            likeButton.setAttribute('id', 'btn');
+            likeButton.setAttribute('value', 'like')
+            likeButton.setAttribute('type', 'button')
 
             likeButton.addEventListener('click', function onClick() {
-            likeButton.style.backgroundColor = 'salmon';
-            likeButton.style.color = 'white';
-            });
-
+                if(likeButton.value == "like"){
+                likeButton.style.backgroundColor = '#EB2B71';
+                likeButton.style.color = 'white';
+                likeButton.value = 'liked'
+                }else{
+                likeButton.value = "like";
+                likeButton.style.backgroundColor = 'white';
+                likeButton.style.color = 'black';
+            }});
+            // function btn(){
+            //     currentvalue = document.getElementById('btn').value;
+            //     if(currentvalue == "like"){
+            //       document.getElementById("btn").value="liked";
+            //       document.getElementById("btn").innerHTML="liked"
+            //     }else{
+            //       document.getElementById("btn").value="like";
+            //     }
+            //   }
+            
 
             article.appendChild(templeName);
             article.appendChild(location);
@@ -156,14 +172,18 @@ function setColor(btn, color) {
         count = 1;        
     }
     else {
-        property.style.backgroundColor = "#7FFF00"
+        property.style.backgroundColor = "#254E58"
         count = 0;
     }
     }
     let buttonclick = Number(window.localStorage.getItem('button'));
     let lastVisit= Number(window.localStorage.getItem('lastVisits'));
 
-
+    if (numOfVisits != 0) {
+        Visits.textContent = 'The last time you visited was ' + numOfDays + ' day(s) ago.'
+    } else {
+        Visits.textContent = 'This is your first page visit.'
+    }
     let numOfDays = Math.floor(daysBetween / FACTOR);
 
     localStorage.setItem('lastVisits', Date.now());
