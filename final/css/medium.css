@@ -49,5 +49,20 @@
 		border-radius: 20px;
 		padding: 8px;
 	}
-	
+	div.service div{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .5fr 1fr;
+	}
+	div.service h3{
+		grid-column: 2;
+		grid-row: 1;
+	}
+	div.service p{
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.service img{
+		grid-row: 1/3;
+	}
 }
