@@ -17,8 +17,6 @@ fetch(apiURL)
       const temp = x.current.temp.toFixed(0)
       const humidity = x.current.humidity.toFixed(0);
 
-      
-
       currentHumidity.textContent = humidity;
       currentTemp.textContent = temp;
       let imgsrc = `images/${x.current.weather[0].icon}.png`;
@@ -39,15 +37,24 @@ fetch(apiURL)
     fetch(apiURL)
     .then((response) => response.json())
     .then(function (x) {
-      const daily = jsonObject['daily'];
-      daily.slice(-3).forEach(displayDaily);  // loop through each business
+      const daily = x.daily;
+      daily.slice(0, 3).forEach(displayDaily);  
     });
-    function display(day) {
+    function displayDaily(daily) {
+      let div = document.createElement('div');
+      let temperatureDaily = document.createElement('p')
+      temperatureDaily.textContent = `${daily.temp.day}°F`;
+      let weatherimgDaily =  document.createElement('img')
+      weatherimgDaily.setAttribute('src', `images/${daily.weather[0].icon}.png`);
+      weatherimgDaily.setAttribute('alt', daily.weather[0].description);
+      let captionDaily = document.createElement('p')
+      captionDaily.textContent = daily.weather[0].description;
+      let humidityDaily = document.createElement('p')
+      humidityDaily.textContent = `Humitity: ${daily.humidity}%`;
+      div.appendChild(weatherimgDaily);
+      div.appendChild(temperatureDaily);
+      div.appendChild(captionDaily);
+      div.appendChild(humidityDaily);
 
-      let weatherimg = `images/${x.daily.weather[0].icon}.png`;
-      let weatheralt = x.daily.weather[0].description;
-    
-      let temperature = x.daily.weather.temp.toFixed(0);
-    
-      let humidity = x.daily.weather.humidity.toFIxed(0);
+      document.querySelector('#forecast').appendChild(div);
     }

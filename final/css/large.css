@@ -49,7 +49,7 @@
 		grid-column: 2 / span 3;
 		grid-row: 2;
 	}
-    div.forecast {
+    div#forecast {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1em;
@@ -119,7 +119,7 @@
 	fieldset.pi{
 		margin: 5px;
 		margin-left: 30px;
-		max-height: 450px;
+		max-height: 760px;
 	}
 	input.submit{
 		margin: auto;
