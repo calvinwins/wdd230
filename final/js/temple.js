@@ -48,20 +48,27 @@ const output = (temples) => {
             // let imgButton = document.createElement('img');
             // imgButton.setAttribute('src', 'images/like.png');
             // imgButton.setAttribute('alt', `likeButton`)  
-            likeButton.setAttribute('id', 'btn');
-            likeButton.setAttribute('value', 'like')
-            likeButton.setAttribute('type', 'button')
 
+            likeButton.setAttribute('id', 'btn');
+            likeButton.setAttribute('value', 'like');
+            likeButton.setAttribute('type', 'button');
             likeButton.addEventListener('click', function onClick() {
-                if(likeButton.value == "like"){
+                if( likeButton.value == "like"){
                 likeButton.style.backgroundColor = '#EB2B71';
-                likeButton.style.color = 'white';
-                likeButton.value = 'liked'
+                likeButton.style.color = 'white';;
+                window.localStorage.setItem('button', 'liked');
+                A = window.localStorage.getItem('button')
+                likeButton.value = A
                 }else{
-                likeButton.value = "like";
+                likeButton.value = 'like'
+                window.localStorage.setItem('button', 'like');
+                B = window.localStorage.getItem('button')
+                likeButton.value = B
                 likeButton.style.backgroundColor = 'white';
                 likeButton.style.color = 'black';
             }});
+            
+            
             // function btn(){
             //     currentvalue = document.getElementById('btn').value;
             //     if(currentvalue == "like"){
@@ -164,26 +171,3 @@ const sortBy = () => {
 
 document.querySelector('#sortBy').addEventListener('change', sortBy);
 
-var count = 1;
-function setColor(btn, color) {
-    var property = document.getElementById(btn);
-    if (count == 0) {
-        property.style.backgroundColor = "#FFFFFF"
-        count = 1;        
-    }
-    else {
-        property.style.backgroundColor = "#254E58"
-        count = 0;
-    }
-    }
-    let buttonclick = Number(window.localStorage.getItem(''));
- 
-
-    if (numOfVisits != 0) {
-        Visits.textContent = 'The last time you visited was ' + numOfDays + ' day(s) ago.'
-    } else {
-        Visits.textContent = 'This is your first page visit.'
-    }
-    let numOfDays = Math.floor(daysBetween / FACTOR);
-
-    localStorage.setItem('lastVisits', Date.now());
