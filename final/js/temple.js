@@ -176,8 +176,8 @@ function setColor(btn, color) {
         count = 0;
     }
     }
-    let buttonclick = Number(window.localStorage.getItem('button'));
-    let lastVisit= Number(window.localStorage.getItem('lastVisits'));
+    let buttonclick = Number(window.localStorage.getItem(''));
+ 
 
     if (numOfVisits != 0) {
         Visits.textContent = 'The last time you visited was ' + numOfDays + ' day(s) ago.'
