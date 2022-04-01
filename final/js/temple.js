@@ -49,7 +49,7 @@ const output = (temples) => {
             // let imgButton = document.createElement('img');
             // imgButton.setAttribute('src', 'images/like.png');
             // imgButton.setAttribute('alt', `likeButton`)  
-            
+            id = temple.id;
             likeButton.setAttribute('id', 'btn');
             likeButton.setAttribute('value', 'like');
             likeButton.setAttribute('type', 'button');
@@ -57,13 +57,13 @@ const output = (temples) => {
                 if( likeButton.value == "like"){
                 likeButton.style.backgroundColor = '#EB2B71';
                 likeButton.style.color = 'white';;
-                window.localStorage.setItem(temple.id, 'liked');
-                A = window.localStorage.getItem(temple.id)
+                window.localStorage.setItem(id, 'liked');
+                A = window.localStorage.getItem(id)
                 likeButton.value = A
                 }else{
                 likeButton.value = 'like'
-                window.localStorage.setItem(temple.id, 'like');
-                B = window.localStorage.getItem(temple.id)
+                window.localStorage.setItem(id, 'like');
+                B = window.localStorage.getItem(id)
                 likeButton.value = B
                 likeButton.style.backgroundColor = 'white';
                 likeButton.style.color = 'black';
