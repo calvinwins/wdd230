@@ -32,13 +32,12 @@
                 <a id="social1" href="https://www.linkedin.com/" target="_blank">
                   <img src="images/linkden.png" alt='linkedin logo'>
                 </a>
-                <a id='socialb' href="https://www.facebook.com/" x>
+                <a id='socialb' href="https://www.facebook.com/">
                   <img src="images/facebook.png" alt="facebook logo">
                 </a>
               </div>
         </div>
         <span id="currentDate"></span>
-        </div>
       </header>
       <main class="reservation">
         <h2>Reservations</h2>
@@ -94,7 +93,8 @@
           <label class="pi">Phone Number*
           <input type="tel" name="phone" required></label>
           <label class="pi">Home Country*
-          <select id="country" name="country" required></label>
+          <select id="country" name="country" required>
+            <option value=""></option>
             <option value="Afghanistan">Afghanistan</option>
             <option value="Åland Islands">Åland Islands</option>
             <option value="Albania">Albania</option>
@@ -339,11 +339,11 @@
             <option value="Yemen">Yemen</option>
             <option value="Zambia">Zambia</option>
             <option value="Zimbabwe">Zimbabwe</option>
-          </select>
+          </select></label>
           <label class="pi">Number of Rooms*
-          <input type="number" name="rooms" required min="1" max="10"></label>
+          <input type="number" name="rooms" min="1" max="10" required></label>
           <label class="pi">Reservation Date
-          <input type="date" name="dates" required pattern="\d{4}-\d{2}-\d{2}" min="2022-04-05" max="2023-04-20" required></label>
+          <input type="date" name="dates" min="2022-04-05" max="2023-04-20" required></label>
           <label class="pi">Check if you are over 18yrs old*
           <input type="checkbox" name="18" required></label>
           <label class="'pi">Special Requests
