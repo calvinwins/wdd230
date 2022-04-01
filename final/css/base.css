@@ -157,6 +157,10 @@ footer{
 div.second img{
 	display: none
 }
+.rental h3 {
+	color: var(--light);
+	text-align: center;
+}
 /* reservations */
 main.reservation {
 	display: block;
