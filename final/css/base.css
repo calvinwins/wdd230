@@ -137,6 +137,7 @@ div#forecast div{
     right: 30px;
     width: 225px;
     height: 50px;
+	font-weight: bold;
 }
 .hero button:hover {
 	background-color: var(--back1);

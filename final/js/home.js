@@ -58,3 +58,8 @@ fetch(apiURL)
 
       document.querySelector('#forecast').appendChild(div);
     }
+    
+ const heroButton = document.querySelector('.herobtn');
+ heroButton.addEventListener('click', function() {
+    window.location='https://calvinwins.github.io/wdd230/final/reservation.html';
+  });
