@@ -15,7 +15,7 @@ fetch(apiURL)
       const currentHumidity = document.querySelector('#humidity');
 
       const temp = x.current.temp.toFixed(0)
-      const humidity = x.current.humidity.toFixed(0);
+      const humidity = x.current.humidity;
 
       currentHumidity.textContent = humidity;
       currentTemp.textContent = temp;
@@ -43,7 +43,7 @@ fetch(apiURL)
     function displayDaily(daily) {
       let div = document.createElement('div');
       let temperatureDaily = document.createElement('p')
-      temperatureDaily.textContent = `${daily.temp.day}°F`;
+      temperatureDaily.textContent = `${daily.temp.day.toFixed(0)}°F`;
       let weatherimgDaily =  document.createElement('img')
       weatherimgDaily.setAttribute('src', `images/${daily.weather[0].icon}.png`);
       weatherimgDaily.setAttribute('alt', daily.weather[0].description);
