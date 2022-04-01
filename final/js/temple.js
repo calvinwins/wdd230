@@ -55,7 +55,7 @@ const output = (temples) => {
             likeButton.setAttribute('type', 'button');
             likeButton.addEventListener('click', function onClick() {
                 if( likeButton.value == "like"){
-                likeButton.style.backgroundColor = '#EB2B71';
+                likeButton.style.backgroundColor = '#F52100';
                 likeButton.style.color = 'white';;
                 window.localStorage.setItem(id, 'liked');
                 A = window.localStorage.getItem(id)
