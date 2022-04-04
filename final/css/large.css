@@ -106,7 +106,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
-		max-width: 1800px;
+		max-width: 1200px;
 	}
 	fieldset.roomOpt {
 		margin: auto;
