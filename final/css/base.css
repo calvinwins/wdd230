@@ -83,6 +83,15 @@ p {
 	font-size: 1.1em;
 	font-family: BonaNova, OpenSans;
 }
+h2 {
+	font-family: Quicksand;
+}
+h3 {
+	font-family: Quicksand;
+}
+h4 {
+	font-family: Quicksand;
+}
 .weather {
 	text-align: center;
 	background-color: var(--light2);
@@ -214,6 +223,7 @@ main.reservation {
 	fieldset img {
 		padding: 5px;
 		margin: 10px;
+		width: 90%;
 	}
 	
 	
@@ -259,8 +269,8 @@ main.reservation {
 	span.cost {
 		font-size: 1.2em;
 		background-color: var(--accent2);
-		padding: 8px;
-		margin: 25px;
+		padding: 5px;
+		margin: 10px;
 		color: var(--white);
 		border-radius: 10px;
 	}
@@ -270,8 +280,8 @@ main.reservation {
 	.level {
 		font-size: 1.2em;
 		font-weight: bold;
-		padding: 8px;
-		margin: 25px;
+		padding: 5px;
+		margin: 10px;
 		background-color: var(--accent1);
 		color: var(--white);
 		border-radius: 10px;
@@ -305,7 +315,7 @@ main.reservation {
 		
 		}
 	div.confirmation{
-		padding: 0 200px;
+		padding: 1em;
 		margin: auto;
 		max-width: 500px;
 	}

@@ -46,13 +46,26 @@ const output = (temples) => {
 
             let likeButton = document.createElement('input');
 
+
             // let imgButton = document.createElement('img');
             // imgButton.setAttribute('src', 'images/like.png');
             // imgButton.setAttribute('alt', `likeButton`)  
             id = temple.id;
-            likeButton.setAttribute('id', 'btn');
+            likeButton.setAttribute('id', id );
             likeButton.setAttribute('value', 'like');
             likeButton.setAttribute('type', 'button');
+            val = window.localStorage.getItem(id)
+                // if( val == "null" && val =='like'){
+                // val = 'like'
+                // likeButton.setAttribute('value', 'like');
+                // likeButton.style.backgroundColor = 'white';
+                // likeButton.style.color = 'black';
+                // localStorage.setItem(id, val)
+                // }else{
+                // likeButton.style.backgroundColor = '#F52100';
+                // likeButton.style.color = 'white';
+                // likeButton.setAttribute('value', 'liked')
+                // };
             likeButton.addEventListener('click', function onClick() {
                 if( likeButton.value == "like"){
                 likeButton.style.backgroundColor = '#F52100';
@@ -61,15 +74,16 @@ const output = (temples) => {
                 A = window.localStorage.getItem(id)
                 likeButton.value = A
                 }else{
-                likeButton.value = 'like'
+                likeButton.value = 'liked'
                 window.localStorage.setItem(id, 'like');
                 B = window.localStorage.getItem(id)
                 likeButton.value = B
                 likeButton.style.backgroundColor = 'white';
                 likeButton.style.color = 'black';
             }});
+            localStorage.setItem(id, val);
             
-            
+
             // function btn(){
             //     currentvalue = document.getElementById('btn').value;
             //     if(currentvalue == "like"){
