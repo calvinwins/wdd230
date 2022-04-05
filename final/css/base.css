@@ -73,6 +73,7 @@ section.rental {
 	display: none
 }
 main {
+	margin: auto;
 	background-color: var(--back1);
 	padding: 1em;
 	display: block;
@@ -93,6 +94,7 @@ h2 {
 	max-width: 500px;
 	margin: auto;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
 	padding: 10px;
 	color: var(--white);
@@ -183,11 +185,6 @@ div.second img{
 	text-align: center;
 }
 /* reservations */
-main.reservation {
-	display: block;
-	margin: auto;
-	}
-
 	
 	form {
 		margin: auto;
@@ -311,30 +308,21 @@ main.reservation {
 		border-radius: 10px;
 		margin-top: 2px
 	}
-	main.reservation h2 {
+	/* main.reservation h2 {
 		border-radius: 10px;
 		max-width: 500px;
-		margin: auto;
 		margin-top: 10px;
 		text-align: center;
 		color: var(--white);
-	}
+	} */
 	/* confirmation */
-	main.confirmation {
-		display: block;
-		
-		}
+
 	div.confirmation{
 		padding: 1em;
 		margin: auto;
 		max-width: 500px;
 	}
-	main.confirmation h2 {
-		
-		padding: 5px;
-		text-align: center;
-		background-color: var(--back1);
-	}
+
 	main.confirmation p {
 		color: var(--white);
 		padding: 2em;
@@ -348,9 +336,7 @@ main.reservation {
 		margin: auto;
 		max-width: 1200px;
 	}
-	main.temple{
-		display: block;
-	}
+
 	.temple img{
 		width: 100%
 	}
@@ -425,22 +411,14 @@ main.reservation {
 		
 	}
 	/* sub-page */
-	main.sub {
-		display: block;
-		
-		}
+
 	div.sub{
 		padding: 0 20px;
 		margin: auto;
 		max-width: 1000px;
 		text-align: center;
 	}
-	main.sub h2 {
-		
-		padding: 5px;
-		text-align: center;
-		background-color: var(--back1);
-	}
+
 	main.sub p {
 		color: var(--white);
 		padding: 2em;
