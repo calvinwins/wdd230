@@ -73,17 +73,29 @@ section.rental {
 	display: none
 }
 main {
+	background-color: var(--back1);
+	padding: 1em;
+	display: block;
+}
+div.home {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: .5fr .5fr 1.5fr 1fr;
-	background-color: var(--back1);
-	padding: 1em;
+	margin: auto;
 }
 p {
 	font-size: 1.1em;
 	font-family: BonaNova, OpenSans;
 }
 h2 {
+	background-color: var(--back2);
+	border-radius: 10px;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	color: var(--white);
 	font-family: Quicksand;
 }
 h3 {
@@ -300,13 +312,11 @@ main.reservation {
 		margin-top: 2px
 	}
 	main.reservation h2 {
-		background-color: var(--back2);
 		border-radius: 10px;
 		max-width: 500px;
 		margin: auto;
 		margin-top: 10px;
 		text-align: center;
-		padding: 10px;
 		color: var(--white);
 	}
 	/* confirmation */

@@ -19,11 +19,12 @@
         margin: auto;
         grid-column: 4;
     }
-    main {
+    div.home {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: .75fr .5fr 1fr;
 		grid-column-gap: 1em;
 		grid-row-gap: 1em;
+		max-width: 1400px;
 	}
 	.navigation li {
 		text-align: center;

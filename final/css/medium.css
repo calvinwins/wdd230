@@ -16,7 +16,7 @@
 		float: left;
 		margin-left: 10px;
 	}
-	main {
+	div.home {
 		grid-template-columns: .5fr 1fr;
 		grid-template-rows: .75fr .5fr .5fr .5fr;
 		grid-column-gap: 1em;
