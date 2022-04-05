@@ -51,6 +51,9 @@ header img {
 .responsive li {
 	display: block;
 }
+.active {
+	background-color: var(--back1);
+}
 header h1{
 	color: var(--light);
 	font-family: Quicksand;
