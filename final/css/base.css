@@ -101,6 +101,7 @@ h2 {
 	font-family: Quicksand;
 }
 h3 {
+	font-size: 1.3em;
 	font-family: Quicksand;
 }
 h4 {
@@ -170,13 +171,18 @@ div#forecast div{
 	color: var(--white);
 	background-color: var(--back2);
 }
-
+a.resources {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--border);
+}
 footer{
 	padding: 10px;
 	background-color: var(--accent1);
 	color: var(--light);
 	text-align: center;
 }
+
 div.second img{
 	display: none
 }
