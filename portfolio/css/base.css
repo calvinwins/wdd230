@@ -30,7 +30,9 @@ header img {
 .navigation li {
     display: none;
     }
-
+section.hero {
+	color: white;
+}
 .navigation a {
 	display: block;
 	padding: 0.75rem;
