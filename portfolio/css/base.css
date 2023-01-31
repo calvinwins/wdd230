@@ -16,6 +16,7 @@ header {
 	background-color: var(--accent1);
 	color: var(--light);
 }
+
 header img {
 	padding: 10px;
 }
@@ -43,7 +44,9 @@ section.hero {
 	font-size: 1.3em;
 }
 
-
+section.certification {
+	color: white;
+}
 .navigation a:hover {
 	color: var(--white);
 	background-color: var(--back1);
