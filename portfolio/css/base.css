@@ -84,7 +84,6 @@ section.rental {
 	display: none
 }
 main {
-	margin: auto;
 	background-color: var(--back1);
 	display: block;
 }
