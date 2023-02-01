@@ -86,7 +86,6 @@ section.rental {
 main {
 	margin: auto;
 	background-color: var(--back1);
-	padding: 1em;
 	display: block;
 }
 div.home {
