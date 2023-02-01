@@ -21,15 +21,12 @@
     }
     div.home {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: .75fr .2fr .5fr .5fr;
+		grid-template-rows: .75fr .2fr .5f;
 		grid-column-gap: 1em;
 		grid-row-gap: 1em;
 		max-width: 1400px;
 	}
-    div.diploma {
-	    grid-column:1/span 3;
-	    grid-row:4
-	}
+
 	.navigation li {
 		text-align: center;
 		display: block; 
