@@ -483,3 +483,7 @@ div.second img{
          width: 95%;
          margin: auto;
     }
+   div.paragraph {
+	  padding: 10px;
+	  color: var(--accent2)
+}
