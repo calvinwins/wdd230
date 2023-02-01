@@ -483,3 +483,22 @@ div.second img{
          width: 95%;
          margin: auto;
     }
+#snippet {
+  float: left; width: 30em;
+  padding: 1em;
+  background: #500;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #400 #700 #700 #400;
+}
+
+#snippet pre {
+  margin: 0;
+}
+
+#snippet pre code {
+  display: block;
+  height: 19em; padding: 1em;
+  overflow-y: auto; overflow-x: hidden;
+}
+
