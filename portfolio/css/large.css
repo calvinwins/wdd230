@@ -21,7 +21,7 @@
     }
     div.home {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: .75fr .2fr .5f;
+		grid-template-rows: .5fr .2fr .5f;
 		grid-column-gap: 1em;
 		grid-row-gap: 1em;
 		max-width: 1400px;
